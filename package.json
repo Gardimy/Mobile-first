@@ -1,0 +1,23 @@
+{
+  "name": "microverse_project1",
+  "version": "1.0.0",
+  "description": "A Microverse exercise to set up a\"Hello World\" project\r <a name=\"readme-top\"></a>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gardimy/Microverse_project1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gardimy/Microverse_project1/issues"
+  },
+  "homepage": "https://github.com/Gardimy/Microverse_project1#readme",
+  "dependencies": {
+    "hint": "^2.0.0"
+  }
+}
