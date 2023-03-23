@@ -11,14 +11,14 @@ body {
   font-family: sans-serif;
 }
 
-nav {
+.header-page {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 24px;
 }
 
-.openMenu {
+.Hamberger {
   width: 16px;
   top: 17px;
   left: 4px;
@@ -28,25 +28,17 @@ nav {
   font-size: 1.7rem;
 }
 
-.closeMenu {
-  left: 4px;
-  margin: 2px;
-  display: none;
-  cursor: pointer;
-  color: white;
-  font-size: 1.7rem;
-}
-
 .Mylogo {
   width: 76px;
   height: 20px;
+  text-decoration: none;
   margin-left: 4px;
   top: 10px;
   color: #6070ff;
   left: 12px;
   line-height: 20px;
   cursor: pointer;
-  font-weight: 700;
+  font-weight: 750;
   align-content: center;
   font-size: 18px;
   transition: all 0.2s ease;
@@ -57,67 +49,68 @@ header {
   border-bottom-left-radius: 80px;
 }
 
-.head {
-  width: 100%;
+.header-container {
   height: 818px;
+  width: 100%;
   background-image: url(Images/mobile-head-bg.png);
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   gap: 12px;
   padding: 120px 24px 115px 24px;
-  background-position: center;
+  background-position: cente;
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
 .title1 {
-  width: 327px;
+  width: 310px;
   height: 150px;
   top: 114px;
   left: 24px;
   padding-top: 32px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
-  margin-left: 50px;
 }
 
 .title2 {
   width: 327px;
   height: 146px;
   top: 276px;
-  left: 24px;
-  font-weight: 500;
+  left: 2px;
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #344563;
   margin: 0;
   padding-top: 32px;
-  margin-left: 50px;
 }
 
 .connect {
-  width: 117px;
+  width: 130px;
   height: 24px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  color: #7f8cff;
   margin: 0;
-  padding-top: 15px;
-  margin-left: 50px;
+  line-height: 24px;
 }
 
 .social-icon ul {
   width: 170px;
-  padding: 0;
+  height: 20px;
   top: 470px;
+  left: 143px;
+  padding-top: 18px;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   list-style: none;
-  padding-top: 22px;
-  margin-left: 50px;
 }
