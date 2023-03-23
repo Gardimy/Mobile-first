@@ -1,10 +1,10 @@
-# Portfolio
+# setup and mobile first
 A Microverse exercise to create a simple portfolio
 <a name="readme-top"></a>
 
 <div align="center">
 
-  <h3><b>Portfolio</b></h3>
+  <h3><b>setup and mobile first</b></h3>
 
 </div>
 
@@ -31,9 +31,9 @@ A Microverse exercise to create a simple portfolio
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio <a name="about-project"></a>
+# 📖 setup and mobile first <a name="about-project"></a>
 
-> **Portfolio** is a starter exercise to create a simple portfolio website.It based on specific settings and requirements to ensure proper structure and best practices. By cloning this repo and running `npm install` we will have a basic portfolio with properly configured linters and correct initial file structrure.
+> **setup and mobile first** is a starter exercise to create a simple portfolio website.It based on specific settings and requirements to ensure proper structure and best practices. By cloning this repo and running `npm install` we will have a basic portfolio with properly configured linters and correct initial file structrure.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -89,11 +89,11 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-`git clone https://github.com/Gardimy/Portfolio-project`
+`git clone https://github.com/Gardimy/Mobile-first`
 
 or
 
-`git clone https://github.com/Gardimy/Portfolio-project` <-- _Only if you have [SSH keys configured](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) on your GitHub account_.
+`git clone https://github.com/Gardimy/Mobile-first` <-- _Only if you have [SSH keys configured](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) on your GitHub account_.
 
 ### Install:
 
