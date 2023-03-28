@@ -605,32 +605,73 @@ form {
     font-family: sans-serif;
     width: 1440px;
   }
+  .Hamberger {
+	display: none;
+  }
+
+  .Mylogo {
+	height: 20px;
+    width: 76px;
+    left: 12px;
+    top: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+	color: #6070ff;
+    margin-left: 95px;
+  }
+  
+  .option {
+    display: flex;
+    list-style: none;
+	margin-right: 95px;
+  }
+
+  .option li a {
+    padding: 15px;
+    text-decoration: none;
+    text-transform: none;
+	justify-content: space-between;
+    font-weight: 500;
+	height: 20px;
+    width: 62px;
+    left: 12px;
+    top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+	color: #344563;
+  }
 
   .header-container {
-    height: 818px;
-    width: 100%;
+    height: 916px;
+    width: 1440px;
     background-image: url(Images/destop-header-bg.png);
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     gap: 12px;
-    padding: 120px 24px 115px 24px;
-    background-position: cente;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
   }
 
   .title1 {
-    width: 310px;
-    height: 150px;
-    top: 114px;
-    left: 24px;
-    padding-top: 32px;
-    font-style: normal;
+	height: 122px;
+	width: 920px;
+	left: 0px;
+	top: 0px;
+	padding: 120px 40px 115px 24px;
+    font-size: 48px;
     font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-    color: #172b4d;
+    line-height: 60px;
+    letter-spacing: 0.3700000047683716px;
+    text-align: left;
+    color: #091e42;
   }
 
   .title2 {
