@@ -114,7 +114,7 @@ To run the linters before committing any changes to your code, execute the follo
 
 ## 👥 Authors <a name="authors"></a>
 
-> 👤 **Gardimyloaded**
+> 👤 **Gardimy Charles**
 - GitHub: [@Gardimy](https://github.com/Gardimy)
 - Twitter: [@gardyelontiga45](https://twitter.com/gardyelontiga45)
 - LinkedIn: [Gardimy charles](https://www.linkedin.com/in/gardimy-charles)
