@@ -499,6 +499,14 @@ body {
   background-size: 100%;
   background-position: top right;
   background-repeat: no-repeat;
+  background:
+    url('assets/ellipse4.png') top 60.24px left 323px no-repeat,
+    url('assets/ellipse12.png') bottom 40.9px right 118px no-repeat,
+    url('assets/ellipse3.png') top 63.81px left 125px no-repeat,
+    url('assets/ellipse5.png') top 18px left 214px no-repeat,
+    url('assets/rectangle4.png') top 36.64px right 351.4px no-repeat,
+    url('assets/rectangle7.png') top 36.64px right 351.4px no-repeat,
+    #6070ff;
 }
 
 .contact-title {
