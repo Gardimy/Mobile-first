@@ -348,7 +348,7 @@ body {
 }
 
 .about-container {
-  height: 1263px;
+  height: 1100px;
   display: flex;
   top: 4769px;
   left: 375px;
@@ -482,4 +482,114 @@ body {
 
 .line {
   border-bottom: 1px solid #dfe1e6;
+}
+
+.Myform {
+  background-color: #fff;
+}
+
+.form-container {
+  height: 779px;
+  top: 5410px;
+  border-top-left-radius: 80px;
+  padding: 114px 24px;
+  display: flex;
+  flex-direction: column;
+  background:
+    url(images/ellipse4.png)
+    top 60.24px
+    left 323px no-repeat,
+    url(images/ellipse12.png)
+    top 55px left 153px no-repeat,
+    url(images/ellipse3.png)
+    top 48.75px left 328px no-repeat,
+    url(images/ellipse5.png)
+    bottom 48.83px right 77.83px no-repeat,
+    url(images/rectangle4.png)
+    top 21px left 310.4px no-repeat,
+    url(images/rectangle7.png)
+    bottom 58.55px right 47px no-repeat,
+    #6070ff;
+}
+
+.contact-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  line-height: 52px;
+  color: #fff;
+  margin: 0;
+}
+
+.contact-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  margin: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  margin-top: 55px;
+}
+
+.entername {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+  padding: 2%;
+  height: 48px;
+  width: 100%;
+}
+
+.entermessage {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
+  padding: 2%;
+  width: 100%;
+}
+
+.get-in-touch {
+  background: #fff;
+  border: 1px solid rgb(61, 81, 255);
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: rgb(61, 81, 255);
+  padding: 12px;
+}
+
+.get-in-touch:hover {
+  background: #6070ff;
+  border: 1px solid #fff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+  color: #fff;
+}
+
+.get-in-touch:active {
+  background: #2230d2;
+  border-radius: 8px;
+  color: #fff;
 }

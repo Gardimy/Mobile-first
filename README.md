@@ -1,10 +1,10 @@
-# finish mobile version
+# Contact form
 A Microverse exercise to create a simple portfolio
 <a name="readme-top"></a>
 
 <div align="center">
 
-  <h3><b>setup and mobile first</b></h3>
+  <h3><b>Contact form</b></h3>
 
 </div>
 
@@ -31,7 +31,7 @@ A Microverse exercise to create a simple portfolio
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 finish mobile version <a name="about-project"></a>
+# 📖Contact-form <a name="about-project"></a>
 
 > **finish mobile version** is a starter exercise to create a portfolio website by listing the portfolio projects.It based on specific settings and requirements to ensure proper structure and best practices. By cloning this repo and running `npm install` we will have a basic portfolio with properly configured linters and correct initial file structrure.
 ## 🛠 Built With <a name="built-with"></a>
@@ -114,10 +114,16 @@ To run the linters before committing any changes to your code, execute the follo
 
 ## 👥 Authors <a name="authors"></a>
 
-> 👤 **Gardimyloaded**
+> 👤 **Gardimy Charles**
 - GitHub: [@Gardimy](https://github.com/Gardimy)
 - Twitter: [@gardyelontiga45](https://twitter.com/gardyelontiga45)
 - LinkedIn: [Gardimy charles](https://www.linkedin.com/in/gardimy-charles)
+
+> 👤 **Tomas Esquivel**
+- GitHub: [@tomasesquivelgc](https://github.com/tomasesquivelgc)
+- Twitter: [@EsquivelTomas](https://twitter.com/EsquivelTomas)
+- LinkedIn: [Tomas Esquivel](https://www.linkedin.com/in/tomas-esquivel-b2160568/)
+
 
 <!-- FUTURE FEATURES -->
 
