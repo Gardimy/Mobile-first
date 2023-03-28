@@ -1,4 +1,4 @@
-# setup and mobile first
+# finish mobile version
 A Microverse exercise to create a simple portfolio
 <a name="readme-top"></a>
 
@@ -31,9 +31,9 @@ A Microverse exercise to create a simple portfolio
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 setup and mobile first <a name="about-project"></a>
+# 📖 finish mobile version <a name="about-project"></a>
 
-> **setup and mobile first** is a starter exercise to create a simple portfolio website.It based on specific settings and requirements to ensure proper structure and best practices. By cloning this repo and running `npm install` we will have a basic portfolio with properly configured linters and correct initial file structrure.
+> **finish mobile version** is a starter exercise to create a portfolio website by listing the portfolio projects.It based on specific settings and requirements to ensure proper structure and best practices. By cloning this repo and running `npm install` we will have a basic portfolio with properly configured linters and correct initial file structrure.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
