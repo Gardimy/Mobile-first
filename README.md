@@ -1,10 +1,10 @@
-# finish mobile version
+# Contact form
 A Microverse exercise to create a simple portfolio
 <a name="readme-top"></a>
 
 <div align="center">
 
-  <h3><b>setup and mobile first</b></h3>
+  <h3><b>Contact form</b></h3>
 
 </div>
 
@@ -31,7 +31,7 @@ A Microverse exercise to create a simple portfolio
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 finish mobile version <a name="about-project"></a>
+# 📖Contact-form <a name="about-project"></a>
 
 > **finish mobile version** is a starter exercise to create a portfolio website by listing the portfolio projects.It based on specific settings and requirements to ensure proper structure and best practices. By cloning this repo and running `npm install` we will have a basic portfolio with properly configured linters and correct initial file structrure.
 ## 🛠 Built With <a name="built-with"></a>
