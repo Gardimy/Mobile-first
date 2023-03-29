@@ -605,46 +605,46 @@ form {
     font-family: sans-serif;
     width: 1440px;
   }
+
   .Hamberger {
-	display: none;
+    display: none;
   }
 
   .Mylogo {
-	height: 20px;
+    height: 20px;
     width: 76px;
     left: 12px;
     top: 10px;
     font-size: 18px;
     font-weight: 700;
     line-height: 20px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: center;
-	color: #6070ff;
+    color: #6070ff;
     margin-left: 95px;
   }
-  
+
   .option {
     display: flex;
     list-style: none;
-	margin-right: 95px;
+    margin-right: 95px;
   }
 
   .option li a {
     padding: 15px;
     text-decoration: none;
     text-transform: none;
-	justify-content: space-between;
+    justify-content: space-between;
     font-weight: 500;
-	height: 20px;
+    height: 20px;
     width: 62px;
     left: 12px;
     top: 10px;
     font-size: 15px;
-    font-weight: 500;
     line-height: 20px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: center;
-	color: #344563;
+    color: #344563;
   }
 
   .header-container {
@@ -661,11 +661,11 @@ form {
   }
 
   .title1 {
-	height: 122px;
-	width: 920px;
-	left: 0px;
-	top: 0px;
-	padding: 120px 40px 115px 24px;
+    height: 122px;
+    width: 920px;
+    left: 0;
+    top: 0;
+    padding: 120px 40px 115px 24px;
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
