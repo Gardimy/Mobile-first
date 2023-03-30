@@ -1,10 +1,10 @@
-# Contact form
+# Desktop version
 A Microverse exercise to create a simple portfolio
 <a name="readme-top"></a>
 
 <div align="center">
 
-  <h3><b>Contact form</b></h3>
+  <h3><b>Desktop version</b></h3>
 
 </div>
 
@@ -31,9 +31,9 @@ A Microverse exercise to create a simple portfolio
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖Contact-form <a name="about-project"></a>
+# 📖Desktop version<a name="about-project"></a>
 
-> **finish mobile version** is a starter exercise to create a portfolio website by listing the portfolio projects.It based on specific settings and requirements to ensure proper structure and best practices. By cloning this repo and running `npm install` we will have a basic portfolio with properly configured linters and correct initial file structrure.
+> **Desktop version** is a starter exercise to create a portfolio website which can use by multiple device by listing the portfolio projects.It based on specific settings and requirements to ensure proper structure and best practices. By cloning this repo and running `npm install` we will have a basic portfolio with properly configured linters and correct initial file structrure.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -118,11 +118,6 @@ To run the linters before committing any changes to your code, execute the follo
 - GitHub: [@Gardimy](https://github.com/Gardimy)
 - Twitter: [@gardyelontiga45](https://twitter.com/gardyelontiga45)
 - LinkedIn: [Gardimy charles](https://www.linkedin.com/in/gardimy-charles)
-
-> 👤 **Tomas Esquivel**
-- GitHub: [@tomasesquivelgc](https://github.com/tomasesquivelgc)
-- Twitter: [@EsquivelTomas](https://twitter.com/EsquivelTomas)
-- LinkedIn: [Tomas Esquivel](https://www.linkedin.com/in/tomas-esquivel-b2160568/)
 
 
 <!-- FUTURE FEATURES -->
