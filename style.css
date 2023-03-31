@@ -138,7 +138,7 @@ body {
   border-radius: 16px;
   gap: 12px;
   padding: 16px;
-  background-color: #ffffff;
+  background-color: #fff;
   color: #420909;
   border: 1px solid #dfe1e6;
   display: flex;
@@ -1069,7 +1069,7 @@ form {
     color: #396df2;
     background: #fff;
     border-radius: 8px;
-	border: 1px solid #dfe1e6;
+    border: 1px solid #dfe1e6;
     cursor: pointer;
     margin: 12px 0;
   }
