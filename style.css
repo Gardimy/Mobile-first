@@ -133,6 +133,7 @@ body {
   justify-content: space-between;
   list-style: none;
   padding-top: 30px;
+  transition: transform 0.3s ease 0s;
 }
 
 .work-container {
@@ -764,7 +765,6 @@ form {
     list-style: none;
     padding-top: 30px;
     margin-left: 195px;
-    animation: slideInlef  1s  normal  ease-in  1;
   }
 
   .work-container {
