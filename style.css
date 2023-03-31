@@ -138,7 +138,8 @@ body {
   border-radius: 16px;
   gap: 12px;
   padding: 16px;
-  background-color: #fff;
+  background-color: #ffffff;
+  color: #420909;
   border: 1px solid #dfe1e6;
   display: flex;
   flex-direction: column;
@@ -598,39 +599,15 @@ form {
   color: #fff;
 }
 
-.desktop-image {
-  display: none;
-}
-
-.description2 {
-  display: none;
-}
-
-.offer2 {
-  display: none;
-}
-
-.skills2 {
-  display: none;
-}
-
-.Tonic3 {
-  display: none;
-}
-
-.description3 {
-  display: none;
-}
-
-.Tonic4 {
-  display: none;
-}
-
+.desktop-image,
+.description2,
+.offer2,
+.Tonic3,
+.skills2,
+.description3,
+.description4,
+.Tonic4,
 .offer4 {
-  display: none;
-}
-
-.description4 {
   display: none;
 }
 
@@ -1089,17 +1066,17 @@ form {
     text-align: center;
     letter-spacing: 0.03em;
     padding: 12px;
-    color: #fff;
-    background: #396df2;
+    color: #396df2;
+    background: #fff;
     border-radius: 8px;
-    border: 1px solid #6070ff;
+	border: 1px solid #dfe1e6;
     cursor: pointer;
     margin: 12px 0;
   }
 
   .container3 .seeproject:hover {
-    background-color: #fff;
-    color: #6070fff5;
+    background-color: #6070fff5;
+    color: #fff;
   }
 
   .about-container {
