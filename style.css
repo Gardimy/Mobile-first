@@ -749,7 +749,7 @@ form {
     line-height: 24px;
     padding-top: 16px;
     margin-left: 195px;
-    animation: slideInlef  1s  normal  ease-in  1;
+    animation: slideInlef  2.5s  normal  ease-in  4;
   }
 
   .social-icon ul {
