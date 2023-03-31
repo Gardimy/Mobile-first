@@ -45,6 +45,20 @@ body {
   transition: all 0.2s ease;
 }
 
+@keyframes flip {
+  from {
+    transform: rotateX(0deg);
+  }
+
+  to {
+    transform: rotateX(360deg);
+  }
+}
+
+.Mylogo:hover {
+  animation: flip 1s linear;
+}
+
 .option {
   display: none;
 }
@@ -574,7 +588,6 @@ form {
 }
 
 .get-in-touch {
-  background: #fff;
   border: 1px solid rgb(61, 81, 255);
   border-radius: 8px;
   font-style: normal;
@@ -636,8 +649,8 @@ form {
     line-height: 20px;
     letter-spacing: 0;
     text-align: center;
-    color: #6070ff;
     margin-left: 95px;
+    color: rgba(0, 4, 255, 0.603);
   }
 
   .option {
@@ -660,12 +673,12 @@ form {
     line-height: 20px;
     letter-spacing: 0;
     text-align: center;
-    color: #344563;
-    transition: transform 0.3s ease 0s;
+    color: rgba(0, 4, 255, 0.603);
   }
 
   .option li a:hover {
-    transform: translateY(-10px);
+    background: rgb(153, 205, 50);
+    background-size: 12px;
   }
 
   .header-container {
@@ -681,6 +694,16 @@ form {
     background-size: 100%;
   }
 
+  @keyframes slideInlef {
+    from {
+      transform: translateX(-300px);
+    }
+
+    to {
+      transform: translateX(0);
+    }
+  }
+
   .title1 {
     height: 122px;
     width: 920px;
@@ -694,6 +717,7 @@ form {
     letter-spacing: 0.3700000047683716px;
     text-align: left;
     color: #091e42;
+    animation: slideInlef  1s  normal  ease-in  1;
   }
 
   .title2 {
@@ -708,6 +732,7 @@ form {
     text-align: left;
     color: #344563;
     margin-left: 195px;
+    animation: slideInlef  1s  reverse  ease-in  1;
   }
 
   .connect {
@@ -724,6 +749,7 @@ form {
     line-height: 24px;
     padding-top: 16px;
     margin-left: 195px;
+    animation: slideInlef  1s  normal  ease-in  1;
   }
 
   .social-icon ul {
@@ -737,6 +763,7 @@ form {
     list-style: none;
     padding-top: 30px;
     margin-left: 195px;
+    animation: slideInlef  1s  normal  ease-in  1;
   }
 
   .work-container {
