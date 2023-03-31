@@ -679,6 +679,7 @@ form {
   .option li a:hover {
     background: rgb(153, 205, 50);
     background-size: 12px;
+    transition: 1s;
   }
 
   .header-container {
