@@ -135,13 +135,16 @@ body {
   padding-top: 30px;
   transition: transform 0.3s ease 0s;
 }
-.social-icon li img{
+
+.social-icon li img {
   transition: width 2s, height 2s;
 }
-.social-icon li img:hover{
+
+.social-icon li img:hover {
   widows: 27px;
   height: 27px;
 }
+
 .work-container {
   display: grid;
   background-color: #e5e5e5;
