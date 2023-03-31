@@ -340,11 +340,13 @@ body {
   border: 1px solid #6070ff;
   cursor: pointer;
   margin: 12px 0;
+  transition: transform 0.3s ease 0s;
 }
 
 .seeproject:hover {
   background-color: #6070fff5;
   color: #fff;
+  transform: translateY(-5px);
 }
 
 .seeproject:active {
@@ -591,6 +593,7 @@ form {
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   border-radius: 8px;
   color: #fff;
+  transform: translateY(-5px);
 }
 
 .get-in-touch:active {
@@ -658,6 +661,11 @@ form {
     letter-spacing: 0;
     text-align: center;
     color: #344563;
+    transition: transform 0.3s ease 0s;
+  }
+
+  .option li a:hover {
+    transform: translateY(-10px);
   }
 
   .header-container {
@@ -1043,6 +1051,10 @@ form {
     text-align: left;
     color: #344563;
     margin-top: 15px;
+  }
+
+  .seeproject:hover {
+    transform: translateY(-10px);
   }
 
   .container1 .seeproject {
