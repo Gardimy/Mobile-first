@@ -45,6 +45,20 @@ body {
   transition: all 0.2s ease;
 }
 
+@keyframes flip {
+  from {
+    transform: rotateX(0deg);
+  }
+
+  to {
+    transform: rotateX(360deg);
+  }
+}
+
+.Mylogo:hover {
+  animation: flip 1s linear;
+}
+
 .option {
   display: none;
 }
@@ -119,6 +133,16 @@ body {
   justify-content: space-between;
   list-style: none;
   padding-top: 30px;
+  transition: transform 0.3s ease 0s;
+}
+
+.social-icon li img {
+  transition: width 2s, height 2s;
+}
+
+.social-icon li img:hover {
+  widows: 27px;
+  height: 27px;
 }
 
 .work-container {
@@ -340,11 +364,13 @@ body {
   border: 1px solid #6070ff;
   cursor: pointer;
   margin: 12px 0;
+  transition: transform 0.3s ease 0s;
 }
 
 .seeproject:hover {
   background-color: #6070fff5;
   color: #fff;
+  transform: translateY(-5px);
 }
 
 .seeproject:active {
@@ -572,7 +598,6 @@ form {
 }
 
 .get-in-touch {
-  background: #fff;
   border: 1px solid rgb(61, 81, 255);
   border-radius: 8px;
   font-style: normal;
@@ -591,6 +616,7 @@ form {
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   border-radius: 8px;
   color: #fff;
+  transform: translateY(-5px);
 }
 
 .get-in-touch:active {
@@ -633,8 +659,8 @@ form {
     line-height: 20px;
     letter-spacing: 0;
     text-align: center;
-    color: #6070ff;
     margin-left: 95px;
+    color: rgba(0, 4, 255, 0.603);
   }
 
   .option {
@@ -657,7 +683,13 @@ form {
     line-height: 20px;
     letter-spacing: 0;
     text-align: center;
-    color: #344563;
+    color: rgba(0, 4, 255, 0.603);
+  }
+
+  .option li a:hover {
+    background: rgb(153, 205, 50);
+    background-size: 12px;
+    transition: 1s;
   }
 
   .header-container {
@@ -673,6 +705,16 @@ form {
     background-size: 100%;
   }
 
+  @keyframes slideInlef {
+    from {
+      transform: translateX(-200px);
+    }
+
+    to {
+      transform: translateX(0);
+    }
+  }
+
   .title1 {
     height: 122px;
     width: 920px;
@@ -686,6 +728,7 @@ form {
     letter-spacing: 0.3700000047683716px;
     text-align: left;
     color: #091e42;
+    animation: slideInlef  1s  normal  ease-in  1;
   }
 
   .title2 {
@@ -700,6 +743,7 @@ form {
     text-align: left;
     color: #344563;
     margin-left: 195px;
+    animation: slideInlef  1s  reverse  ease-in  1;
   }
 
   .connect {
@@ -716,6 +760,7 @@ form {
     line-height: 24px;
     padding-top: 16px;
     margin-left: 195px;
+    animation: slideInlef  2.5s  normal  ease-in  4;
   }
 
   .social-icon ul {
@@ -1043,6 +1088,10 @@ form {
     text-align: left;
     color: #344563;
     margin-top: 15px;
+  }
+
+  .seeproject:hover {
+    transform: translateY(-10px);
   }
 
   .container1 .seeproject {

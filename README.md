@@ -1,10 +1,10 @@
-# Desktop version
-A Microverse exercise to create a simple portfolio
+# Animation and Transition
+A Microverse exercise to use animation on a website
 <a name="readme-top"></a>
 
 <div align="center">
 
-  <h3><b>Desktop version</b></h3>
+  <h3><b>Animation and transition</b></h3>
 
 </div>
 
@@ -31,9 +31,9 @@ A Microverse exercise to create a simple portfolio
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖Desktop version<a name="about-project"></a>
+# 📖Animation and Transition<a name="about-project"></a>
 
-> **Desktop version** is a starter exercise to create a portfolio website which can use by multiple device by listing the portfolio projects.It based on specific settings and requirements to ensure proper structure and best practices. By cloning this repo and running `npm install` we will have a basic portfolio with properly configured linters and correct initial file structrure.
+> **Animation and Transition** is a starter exercise to create a portfolio website that can be used by multiple devices by listing the portfolio projects. And also using CSS animation makes the website more interactive. It is based on specific settings and requirements to ensure proper structure and best practices. By cloning this repo and running `npm install` we will have a basic portfolio with properly configured linters and the correct initial file structure.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -132,7 +132,7 @@ To run the linters before committing any changes to your code, execute the follo
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Gardimy/Mobile-first/issues/7).
 
 <!-- SUPPORT -->
 
