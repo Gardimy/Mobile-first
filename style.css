@@ -303,7 +303,7 @@ body {
 }
 
 .htl {
-  top: 4px;
+  top: 5px;
   left: 12px;
   letter-spacing: 0.03em;
   font-style: normal;
@@ -526,14 +526,15 @@ body {
   padding: 114px 24px;
   display: flex;
   flex-direction: column;
-  background: 
+  background:
     url(images/ellipse4.png) top 60.24px left 323px no-repeat,
     url(images/ellipse12.png) top 55px left 153px no-repeat,
     url(images/ellipse3.png) top 48.75px left 328px no-repeat,
     url(images/ellipse5.png) bottom 48.83px right 77.83px no-repeat,
     url(images/rectangle4.png) top 21px left 310.4px no-repeat,
-    url(images/rectangle7.png) bottom 58.55px right 47px no-repeat, #6070ff;
-  }
+    url(images/rectangle7.png) bottom 58.55px right 47px no-repeat,
+    #6070ff;
+}
 
 .contact-title {
   font-style: normal;
