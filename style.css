@@ -603,13 +603,15 @@ label {
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
-/*  color: rgb(61, 81, 255);*/
+
+  /*  color: rgb(61, 81, 255); */
   padding: 12px;
 }
 
 .get-in-touch:hover {
   background: #6070ff;
-/*  border: 1px solid #fff;*/
+
+  /*  border: 1px solid #fff; */
   border-radius: 8px;
   color: #fff;
   transform: translateY(-5px);
@@ -656,7 +658,7 @@ label {
     letter-spacing: 0;
     text-align: center;
     margin-left: 95px;
-    background-color: #ffffff;
+    background-color: #fff;
   }
 
   .option {
@@ -1252,9 +1254,7 @@ label {
   .get-in-touch {
     margin-left: 160px;
     margin-right: 100px;
-    font-family: poppins;
-    background-color: #ffffff;
-    font-family: Poppins;
+    background-color: #fff;
     color: #6070ff;
     font-size: 17px;
     font-weight: 500;
