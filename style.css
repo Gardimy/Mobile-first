@@ -1,5 +1,5 @@
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -526,21 +526,12 @@ body {
   padding: 114px 24px;
   display: flex;
   flex-direction: column;
-  background:
-    url(images/ellipse4.png)
-    top 60.24px
-    left 323px no-repeat,
-    url(images/ellipse12.png)
-    top 55px left 153px no-repeat,
-    url(images/ellipse3.png)
-    top 48.75px left 328px no-repeat,
-    url(images/ellipse5.png)
-    bottom 48.83px right 77.83px no-repeat,
-    url(images/rectangle4.png)
-    top 21px left 310.4px no-repeat,
-    url(images/rectangle7.png)
-    bottom 58.55px right 47px no-repeat,
-    #6070ff;
+  background: url(images/ellipse4.png) top 60.24px left 323px no-repeat,
+    url(images/ellipse12.png) top 55px left 153px no-repeat,
+    url(images/ellipse3.png) top 48.75px left 328px no-repeat,
+    url(images/ellipse5.png) bottom 48.83px right 77.83px no-repeat,
+    url(images/rectangle4.png) top 21px left 310.4px no-repeat,
+    url(images/rectangle7.png) bottom 58.55px right 47px no-repeat, #6070ff;
 }
 
 .contact-title {
@@ -568,6 +559,10 @@ form {
   align-items: flex-start;
   gap: 20px;
   margin-top: 55px;
+}
+
+label {
+  display: none;
 }
 
 .entername {
@@ -728,7 +723,7 @@ form {
     letter-spacing: 0.3700000047683716px;
     text-align: left;
     color: #091e42;
-    animation: slideInlef  1s  normal  ease-in  1;
+    animation: slideInlef 1s normal ease-in 1;
   }
 
   .title2 {
@@ -743,7 +738,7 @@ form {
     text-align: left;
     color: #344563;
     margin-left: 195px;
-    animation: slideInlef  1s  reverse  ease-in  1;
+    animation: slideInlef 1s reverse ease-in 1;
   }
 
   .connect {
@@ -760,7 +755,7 @@ form {
     line-height: 24px;
     padding-top: 16px;
     margin-left: 195px;
-    animation: slideInlef  2.5s  normal  ease-in  4;
+    animation: slideInlef 2.5s normal ease-in 4;
   }
 
   .social-icon ul {
