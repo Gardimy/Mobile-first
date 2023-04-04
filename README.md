@@ -119,6 +119,12 @@ To run the linters before committing any changes to your code, execute the follo
 - Twitter: [@gardyelontiga45](https://twitter.com/gardyelontiga45)
 - LinkedIn: [Gardimy charles](https://www.linkedin.com/in/gardimy-charles)
 
+> 👤 Pablo Gonzalez
+
+- GitHub: [@PabloEGonz](https://github.com/PabloEGonz)
+- Twitter: [@PabloEzGon](https://twitter.com/PabloEzGon)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/pablo-ezequiel-gonz%C3%A1lez-ramos-b9b854265)
+
 
 <!-- FUTURE FEATURES -->
 
