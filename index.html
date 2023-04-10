@@ -13,18 +13,28 @@
   </head>
   <body>
     <section class="header">
-      <div class="header-page">
-        <a href="#" class="Mylogo"> GDM Services</a>
-        <a class="Hamberger"><i class="fa-solid fa-bars"></i></a>
-
+      <header>
+        <a href="#" class="Mylogo"> GDM Services</a>   
+      <nav>
+        <button class="Hamberger">
+		<div class="Closebtn"></div>
+	   </button>
         <ul class="option">
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-      </div>
+		<div class="mobile-menu">
+			<ul>
+			  <li><a href="#portfolio">Portfolio</a></li>
+			  <li><a href="#about">About</a></li>
+			  <li><a href="#contact">Contact</a></li>
+			  </ul>
+		</div>
+	</nav>
+    </header>
 
-      <div class="header-container">
+      <div class="header-container" id="portfolio">
         <h1 class="title1">I'm Gardimy. <br />Glad to see you!</h1>
         <p class="title2">
           I'm a software developer! I can help you build a product , feature or
@@ -252,7 +262,7 @@
       </div>
     </section>
 
-    <section class="about-container">
+    <section class="about-container" id="about">
       <div class="about">
         <h2 class="title3">About Myself</h2>
         <p class="title4">
@@ -326,7 +336,7 @@
         </div>
       </div>
     </section>
-    <section class="Myform">
+    <section class="Myform" id="contact">
       <div class="form-container">
         <h2 class="contact-title">Contact me</h2>
         <p class="contact-text">
@@ -369,5 +379,6 @@
         </div>
       </div>
     </section>
+    <script src="hamberger.js"></script>
   </body>
 </html>
