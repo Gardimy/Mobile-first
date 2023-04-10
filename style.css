@@ -64,18 +64,6 @@ header {
   right: 0;
 }
 
-.Hamberger .Closebtn,
-.Hamberger:after,
-.Hamberger:before {
-  width: 90%;
-  height: 5px;
-  background-color: #6070ff;
-  margin: 6px 0;
-  transition: 0.4s;
-  content: '';
-  display: block;
-}
-
 .Closebtn {
   width: 90%;
   height: 5px;
@@ -86,12 +74,23 @@ header {
   display: block;
 }
 
-.Hamberger.is-active:before {
+.Hamberger .Closebtn,
+.Hamberger::after,
+.Hamberger::before {
+  width: 90%;
+  height: 5px;
+  background-color: #6070ff;
+  margin: 6px 0;
+  transition: 0.4s;
+  content: '';
+  display: block;
+}
+
+.Hamberger.is-active::before {
   transform: rotate(-45deg) translate(-8px, 6px);
 }
 
-
-.Hamberger.is-active:after {
+.Hamberger.is-active::after {
   transform: rotate(45deg) translate(-9px, -8px);
 }
 
@@ -147,7 +146,7 @@ header {
   flex-direction: column;
   gap: 12px;
   padding: 120px 24px 115px 24px;
-  background-position: cente;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -211,7 +210,7 @@ header {
 }
 
 .social-icon li img:hover {
-  widows: 27px;
+  width: 27px;
   height: 27px;
 }
 
@@ -714,7 +713,7 @@ label {
   }
 
   .mobile-menu {
-	display: none;
+    display: none;
   }
 
   .Mylogo {
@@ -784,7 +783,7 @@ label {
   }
 
   .option2 {
-	display: none;
+    display: none;
   }
 
   .title1 {
