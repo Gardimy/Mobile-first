@@ -37,19 +37,11 @@ header {
   border: none;
   color: #fff;
   font-size: 20px;
+  font-size: 1.7rem;
 }
 
 .Closebtn:hover {
   cursor: pointer;
-}
-
-.Closebtn {
-  left: 4px;
-  margin: 2px;
-  display: none;
-  cursor: pointer;
-  color: white;
-  font-size: 1.7rem;
 }
 
 @media (max-width: 768px) {
@@ -85,7 +77,7 @@ header {
     top: 20px;
     width: 16px;
   }
-  
+
   .hamberger {
     display: block;
   }
@@ -139,7 +131,7 @@ header {
   flex-direction: column;
   gap: 12px;
   padding: 120px 24px 115px 24px;
-  background-position: cente;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
 }
