@@ -1,7 +1,13 @@
-const hamberger = document.querySelector('.Hamberger');
-const Mobilemenu = document.querySelector('.mobile-menu');
+const option = document.querySelector('.option');
+const menu = document.querySelector('.hamberger');
+const closemenu = document.querySelector('.Closebtn');
 
-hamberger.addEventListener('click', () => {
-  hamberger.classList.toggle('is-active');
-  Mobilemenu.classList.toggle('is-active');
+menu.addEventListener('click', function(){
+  option.style.display = 'flex';
+  menu.style.display ='none';
+});
+
+closemenu.addEventListener('click', function(){
+  option.style.top = '100%';
+  closemenu.style.display ='block';
 });
