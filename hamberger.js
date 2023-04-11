@@ -9,5 +9,5 @@ menu.addEventListener('click', () => {
 
 closemenu.addEventListener('click', () => {
   option.style.top = '-100%';
-  closemenu.style.left = '0';
+  closemenu.style.display = 'none';
 });

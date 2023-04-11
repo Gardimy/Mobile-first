@@ -23,7 +23,7 @@ header {
   top: 12px;
   left: 4px;
   margin: 2px;
-  display: block;
+  display: none;
   cursor: pointer;
   color: #6070ff;
   font-size: 1.7rem;
@@ -41,7 +41,6 @@ header {
   cursor: pointer;
   position: absolute;
   color: white;
-  margin-left: 410px;
   margin-top: 40px;
 }
 
@@ -51,13 +50,13 @@ header {
     align-items: flex-start;
     display: none;
     height: 100vh;
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
     left: 0;
     background-color: #6070ff;
     mix-blend-mode: multiply;
-    z-index: 98;
+    z-index: 10;
     list-style: none;
     backdrop-filter: blur(7px);
     color: #fff;
@@ -79,15 +78,20 @@ header {
 
   .Closebtn {
     z-index: 100;
-    display: block;
+    align-items: flex-end;
+    left: 300px;
   }
 
   .option .Closebtn {
     display: block;
-    position: fixed;
+    position: absolute;
     top: 20px;
-    right: 20px;
+    right: 0;
     width: 16px;
+  }
+
+  .hamberger {
+    display: block;
   }
 }
 
