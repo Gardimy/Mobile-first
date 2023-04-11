@@ -4,10 +4,10 @@ const closemenu = document.querySelector('.Closebtn');
 
 menu.addEventListener('click', () => {
   option.style.display = 'flex';
-  menu.style.display = 'none';
+  menu.style.display = 'block';
 });
 
 closemenu.addEventListener('click', () => {
-  option.style.top = '100%';
-  closemenu.style.display = 'block';
+  option.style.top = '-100%';
+  closemenu.style.left = '0';
 });

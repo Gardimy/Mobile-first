@@ -23,28 +23,48 @@ header {
   top: 12px;
   left: 4px;
   margin: 2px;
-  display: none;
+  display: block;
   cursor: pointer;
   color: #6070ff;
   font-size: 1.7rem;
 }
 
 .Closebtn {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background: transparent;
-  border: none;
-  color: #fff;
-  font-size: 20px;
-  font-size: 1.7rem;
-}
-
-.Closebtn:hover {
+  height: 12px;
+  width: 12px;
+  left: 6px;
+  z-index: 100;
+  top: 6px;
+  display: block;
+  border-radius: 0;
+  font-size: 2rem;
   cursor: pointer;
+  position: absolute;
+  color: white;
+  margin-left: 410px;
+  margin-top: 40px;
 }
 
 @media (max-width: 768px) {
+  .option {
+    flex-direction: column;
+    align-items: flex-start;
+    display: none;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #6070ff;
+    mix-blend-mode: multiply;
+    z-index: 98;
+    list-style: none;
+    backdrop-filter: blur(7px);
+    color: #fff;
+    padding-top: 6rem;
+    opacity: 100%;
+  }
+
   .option li a {
     display: block;
     padding: 15px;
@@ -54,32 +74,20 @@ header {
     font-size: 32px;
     font-weight: 600;
     margin-left: 15px;
+    margin-top: 6px;
   }
 
-  .option {
-    flex-direction: column;
-    display: none;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    background-color: #6070ff;
-    mix-blend-mode: multiply;
-    z-index: 10;
-    list-style: none;
-    padding-top: 80px;
+  .Closebtn {
+    z-index: 100;
+    display: block;
   }
 
   .option .Closebtn {
     display: block;
-    position: absolute;
+    position: fixed;
     top: 20px;
+    right: 20px;
     width: 16px;
-  }
-
-  .hamberger {
-    display: block;
   }
 }
 
@@ -697,7 +705,7 @@ label {
     display: none;
   }
 
-  .mobile-menu {
+  .Closebtn {
     display: none;
   }
 
