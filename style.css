@@ -697,6 +697,107 @@ label {
   display: none;
 }
 
+.main {
+  height: 590px;
+  top: 20px;
+  left: 16px;
+  margin-left: 12px;
+  border-radius: 16px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: calc(50% 343px/2);
+  background: #fff;
+  border: 1px solid white;
+}
+
+#overlay {
+  width: 400px;
+  height: 100%;
+  opacity: 100%;
+  color: #c1c7d0;
+}
+
+.closepopup {
+  cursor: pointer;
+  margin-left: 50px;
+  color: grey;
+}
+
+.pop-head {
+  padding: 32px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 0;
+  margin-top: 30px;
+}
+
+.pop-head .closepopup {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 40px;
+}
+
+.offer-pop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 12px;
+  list-style: none;
+  padding: 15px 1px;
+  margin: 0;
+  margin-right: 130px;
+}
+
+.main.active,
+.main.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.description-pop {
+  width: 300px;
+  height: 76px;
+  top: 92px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin: 0;
+}
+
+.grand-btn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+
+.grand-btn button {
+  width: 50%;
+  display: flex;
+  padding: 2%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: #6070ff;
+  transition: 2ms;
+}
+
+.grand-btn .seeproject img {
+  width: 14px;
+  height: 14px;
+}
+
 @media (min-width: 768px) {
   body {
     margin: 0;
