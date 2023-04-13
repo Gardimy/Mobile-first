@@ -717,7 +717,7 @@ label {
 
 .modal0.active,
 .modal1.active {
-  transform: translate(-50%, -50%) s cale(1);
+  transform: translate(-50%, -50%) scale(1);
 }
 
 .pop-header {
