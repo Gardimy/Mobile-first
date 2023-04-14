@@ -10,6 +10,12 @@
       src="https://kit.fontawesome.com/27ebd9ab14.js"
       crossorigin="anonymous"
     ></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;
+    0,600;0,700;1,200;1,300;1,400;1,800;1,900&display=swap" rel="stylesheet">
   </head>
   <body>
     <section class="header">
@@ -66,8 +72,8 @@
       </div>
     </section>
 
-    <section class="work-container">
-      <div class="container1" id="portfolio">
+    <section class="work-container" id="containers">
+      <div class="container1" id="container1" data-modal-target="#modal1">
         <img
           class="desktop-image"
           src="Images/Desktop-img1.png"
@@ -97,11 +103,11 @@
             <li class="css"><a href="#"></a>css</li>
             <li class="js"><a href="#"></a>javascript</li>
           </ul>
-          <button class="seeproject">See Project</button>
+          <button class="seeproject" data-modal-target="#modal1">See Project</button>
         </div>
       </div>
 
-      <div class="container2 desktop-reverse">
+      <div class="container2 desktop-reverse" id="container2" data-modal-target="#modal0">
         <img
           class="desktop-image"
           src="Images/Desktop-img2.png"
@@ -145,11 +151,11 @@
             <li class="css"><a href="#"></a>css</li>
             <li class="js"><a href="#"></a>javascript</li>
           </ul>
-          <button class="seeproject">See Project</button>
+          <button class="seeproject" data-modal-target="#modal0">See Project</button>
         </div>
       </div>
 
-      <div class="container3">
+      <div class="container3" id="container3" data-modal-target="#modal1">
         <img
           class="desktop-image"
           src="Images/Desktop-img3.png"
@@ -197,11 +203,11 @@
             <li class="css"><a href="#"></a>css</li>
             <li class="js"><a href="#"></a>javascript</li>
           </ul>
-          <button class="seeproject">See Project</button>
+          <button class="seeproject" data-modal-target="#modal1">See Project</button>
         </div>
       </div>
 
-      <div class="container4 desktop-reverse">
+      <div class="container4 desktop-reverse" id="container4" data-modal-target="#modal0">
         <img
           class="snapshoot"
           src="Images/Snapshoot4.png"
@@ -209,6 +215,7 @@
         />
         <img
           class="desktop-image"
+   
           src="Images/Desktop-img4.png"
           alt="Project Image"
         />
@@ -249,10 +256,20 @@
             <li class="css"><a href="#"></a>css</li>
             <li class="js"><a href="#"></a>javascript</li>
           </ul>
-          <button class="seeproject">See Project</button>
+          <button class="seeproject" data-modal-target="#modal0">See Project</button>
         </div>
       </div>
-    </section>
+    </section> 
+
+        <div class="modal0" id="modal0">
+        </div> 
+        <div class="modal1" id="modal1">
+        </div>
+        <div class="modal2" id="modal2">
+        </div>
+        <div class="modal3" id="modal3">
+        </div>
+        <div id="overlay"></div>
 
     <section class="about-container" id="about">
       <div class="about">
@@ -355,6 +372,10 @@
               placeholder="Enter your Email here"
               required
             />
+            <span class="error" 
+             aria-live="polite" 
+             gap="30px">
+             </span>
             <label for="comments">Comments</label>
             <textarea
               class="entermessage"
@@ -372,5 +393,9 @@
       </div>
     </section>
     <script src="hamberger.js"></script>
+	<script src="popup.js"></script>
+  <script src="form.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
   </body>
 </html>

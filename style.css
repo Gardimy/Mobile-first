@@ -697,6 +697,162 @@ label {
   display: none;
 }
 
+.modal0,
+.modal1,
+.modal2,
+.modal3 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transition: 200ms ease-in-out;
+  transform: translate(-50%, -50%) scale(0);
+  border-radius: 14px;
+  z-index: 10;
+  background-color: #fff;
+  width: 90%;
+  height: 95%;
+  padding: 12px;
+  overflow: scroll;
+}
+
+.modal0.active,
+.modal1.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.modal2.active,
+.modal3.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  top: 50px;
+  align-items: flex-start;
+  line-height: 24px;
+  height: 65px;
+}
+
+.closepopup {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 40px;
+  font-weight: lighter;
+  height: 1px;
+  width: 12px;
+  top: 6px;
+  left: 0;
+  margin-right: 12px;
+  border-radius: 0;
+  color: #67798e;
+}
+
+.modal0 .Tonicpop,
+.modal1 .Tonicpop {
+  justify-content: center;
+  font-weight: 700;
+  font-size: 32px;
+  color: #172b4d;
+  margin: 1px;
+  height: 36px;
+  width: 259px;
+  top: 2px;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.offer-pop {
+  display: flex;
+  align-items: flex-start;
+  gap: 13px;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+  padding-left: 14px;
+  height: 36px;
+}
+
+.snapshootpop {
+  height: 220px;
+  width: 311px;
+  left: 16px;
+  top: 112px;
+  border-radius: 8px;
+}
+
+.desktoppop {
+  display: none;
+}
+
+.description-pop {
+  height: 155px;
+  width: 311px;
+  left: 0;
+  top: 0;
+  color: #344563;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.img-live {
+  padding-left: 10px;
+}
+
+.see-live {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.seelive {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding: 12px;
+  color: #396df2;
+  background: transparent;
+  border-radius: 8px;
+  border: 1px solid #5564eb;
+  cursor: pointer;
+  margin: 12px 0;
+  transition: all 0.4s ease-in-out;
+}
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #c1c7d0;
+  backdrop-filter: blur(5px);
+  pointer-events: none;
+  opacity: 0;
+  z-index: 0;
+  mix-blend-mode: multiply;
+}
+
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
 @media (min-width: 768px) {
   body {
     margin: 0;
@@ -1346,4 +1502,89 @@ label {
     border-radius: 8px;
     color: #fff;
   }
+
+  .modal0,
+  .modal1 {
+    width: 85%;
+  }
+
+  .Tonicpop {
+    justify-content: center;
+    height: 40px;
+    font-weight: 700;
+    font-size: 32px;
+    width: 70%;
+    color: #172b4d;
+  }
+
+  .snapshootpop {
+    display: none;
+  }
+
+  .desktoppop {
+    display: block;
+    height: 586px;
+    width: 1108px;
+    left: 0;
+    top: 0;
+    border-radius: 8px;
+  }
+
+  .offer-pop {
+    display: flex;
+    align-items: flex-start;
+    gap: 13px;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding-left: 14px;
+    height: 36px;
+  }
+
+  .img-live {
+    padding-left: 10px;
+  }
+
+  .see-live {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+  }
+
+  .seelive {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding: 12px;
+    color: #396df2;
+    background: transparent;
+    border-radius: 8px;
+    border: 1px solid #5564eb;
+    cursor: pointer;
+    margin: 12px 0;
+    transition: all 0.4s ease-in-out;
+  }
+}
+
+.error {
+  width: 90%;
+  padding: 0;
+  top: -20px;
+  left: 30px;
+  font-size: 80%;
+  color: white;
+  background-color: #900;
+  border-radius: 0 0 5px 5px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.error.active {
+  padding: 0.3em;
 }
