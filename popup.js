@@ -282,7 +282,7 @@ function closeModal1(modal1) {
 
 closepop.forEach((button) => {
   button.addEventListener('click', () => {
-    const closeModal1 = button.closest('.modal1');
+    const modal1 = button.closest('.modal1');
     closeModal1(modal1);
   });
 });
