@@ -242,11 +242,10 @@ seeproject[2].addEventListener('click', () => {
   overlay.classList.add('active');
 });
 
-// seeproject[4].addEventListener('click', () => {
-//   // openModal(modal0)
-//   modal4.classList.add('active');
-//   overlay.classList.add('active');
-// });
+seeproject[3].addEventListener('click', () => {
+    modal3.classList.add('active');
+  overlay.classList.add('active');
+});
 
 // function openModal(modal0) {
 //   // if (modal0 == null) return;
@@ -300,3 +299,4 @@ overlay.addEventListener('click', () => {
     closeModal(modal1);
   });
 });
+
