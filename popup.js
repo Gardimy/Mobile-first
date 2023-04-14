@@ -211,14 +211,14 @@ modal3.insertAdjacentHTML(
 );
 
 const seeproject = document.querySelectorAll('.seeproject');
-const closeModal4 = document.querySelectorAll('.closepopup');
+const closepop = document.querySelectorAll('.closepopup');
 const overlay = document.getElementById('overlay');
 
-seeproject.forEach((opt) => {
-  opt.addEventListener('click', () => {
-    const modal0 = document.querySelector(opt.seeproject);
-  });
-});
+// seeproject.forEach((opt) => {
+//   opt.addEventListener('click', () => {
+//     const modal0 = document.querySelector(opt.seeproject);
+//   });
+// });
 
 seeproject[0].addEventListener('click', () => {
   modal0.classList.add('active');
@@ -232,7 +232,7 @@ seeproject[1].addEventListener('click', () => {
 
 closepop.forEach((button) => {
   button.addEventListener('click', () => {
-    const modal1 = button.closest('.modal1');
+    const closeModal1 = button.closest('.modal1');
     closeModal1(modal1);
   });
 });
@@ -242,11 +242,11 @@ seeproject[2].addEventListener('click', () => {
   overlay.classList.add('active');
 });
 
-seeproject[4].addEventListener('click', () => {
-  // openModal(modal0)
-  modal4.classList.add('active');
-  overlay.classList.add('active');
-});
+// seeproject[4].addEventListener('click', () => {
+//   // openModal(modal0)
+//   modal4.classList.add('active');
+//   overlay.classList.add('active');
+// });
 
 // function openModal(modal0) {
 //   // if (modal0 == null) return;
@@ -262,7 +262,7 @@ seeproject[4].addEventListener('click', () => {
 
 closepop.forEach((button) => {
   button.addEventListener('click', () => {
-    const modal0 = button.closest('.modal0');
+    const closeModal = button.closest('.modal0');
     closeModal(modal0);
   });
 });
@@ -273,30 +273,30 @@ function closeModal1(modal1) {
   overlay.classList.remove('active');
 }
 
-seeproject.forEach((button) => {
-  button.addEventListener('click', () => {
-    const modal1 = document.querySelector(button.dataset.modalTarget);
-    // openModal(modal1);
-  });
-});
+// seeproject.forEach((button) => {
+//   button.addEventListener('click', () => {
+//     const modal1 = document.querySelector(button.dataset.modalTarget);
+//     // openModal(modal1);
+//   });
+// });
 
 closepop.forEach((button) => {
   button.addEventListener('click', () => {
-    const modal1 = button.closest('.modal1');
+    const closeModal1 = button.closest('.modal1');
     closeModal1(modal1);
   });
 });
 
 overlay.addEventListener('click', () => {
-  const modals = document.querySelectorAll('.modal0.active');
-  modals.forEach((modal0) => {
+  const closeModal = document.querySelectorAll('.modal0.active');
+  closeModal.forEach((modal0) => {
     closeModal(modal0);
   });
 });
 
 overlay.addEventListener('click', () => {
-  const modals = document.querySelectorAll('.modal1.active');
-  modals.forEach((modal1) => {
+  const closeModal = document.querySelectorAll('.modal1.active');
+  closeModal.forEach((modal1) => {
     closeModal(modal1);
   });
 });
