@@ -8,10 +8,9 @@ form.addEventListener('submit', (event) => {
   const isValid = email.value.length === 0 || emailRegExp.test(email.value);
   if (!isValid) {
     email.className = 'invalid';
-    error.textContent = 'Vour email must not contain capital letters';
+    error.textContent = 'Your email must not contain capital letters';
     error.className = 'error active';
-  } 
-  else {
+  } else {
     email.className = 'valid';
     error.textContent = '';
     error.className = 'error';
