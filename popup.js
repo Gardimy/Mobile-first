@@ -294,17 +294,17 @@ function closeModal1(modal1) {
 }
 
 closepop.forEach((button) => {
-  button.addEventListener('click', () => {
-    const modal1 = button.closest('.modal1');
+   button.addEventListener('click', () => {
+    const closeModal1 = button.closest('.modal1');
     closeModal1(modal1);
   });
 });
 
 seeproject[2].addEventListener('click', () => {
-  modal2.classList.add('active');
+  modal1.classList.add('active');
   overlay.classList.add('active');
-});
-
+  });
+  
 function closeModal2(modal2) {
   if (modal2 == null) return;
   modal2.classList.remove('active');
