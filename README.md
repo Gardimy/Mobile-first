@@ -159,6 +159,7 @@ Feel free to check the [issues page](https://github.com/Gardimy/Mobile-first/iss
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 > I would like to thank [Microverse](https://www.microverse.org/) for teaching me these tools.
+And like to thanks to my coding partners.
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
