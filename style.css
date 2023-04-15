@@ -701,6 +701,7 @@ label {
 .modal1,
 .modal2,
 .modal3 {
+
   position: fixed;
   top: 50%;
   left: 50%;
@@ -709,8 +710,8 @@ label {
   border-radius: 14px;
   z-index: 10;
   background-color: #fff;
-  width: 90%;
-  height: 95%;
+  width: 80%;
+  height: 90%;
   padding: 12px;
   overflow: scroll;
 }
@@ -791,7 +792,7 @@ nav {
 }
 
 .description-pop {
-  height: 155px;
+  height: 100%;
   width: 311px;
   left: 0;
   top: 0;
@@ -1541,9 +1542,6 @@ nav {
     height: 36px;
   }
 
-  .img-live {
-    padding-left: 10px;
-  }
 
   .see-live {
     display: flex;

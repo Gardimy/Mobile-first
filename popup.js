@@ -91,10 +91,10 @@ modal0.insertAdjacentHTML(
     <img class="snapshootpop" src="${containersworks[0].snapshoot}" alt="mobile image">
     <img class="desktoppop" src="${containersworks[0].desktop}" alt="Desktop Image">
  
-    <div class="daily">
+    <div class="dailypop">
        <p class="description-pop">${containersworks[0].description}</p>
        
-       <ul class="skills">
+       <ul class="skillspop">
        <li class="htl"><a href="#"></a>${containersworks[0].skills[0]}</li>
        <li class="css"><a href="#"></a>${containersworks[0].skills[1]}</li>
        <li class="js"><a href="#"></a>${containersworks[0].skills[2]}</li>
@@ -243,7 +243,7 @@ seeproject[2].addEventListener('click', () => {
 });
 
 seeproject[3].addEventListener('click', () => {
-    modal3.classList.add('active');
+  modal3.classList.add('active');
   overlay.classList.add('active');
 });
 
@@ -299,4 +299,3 @@ overlay.addEventListener('click', () => {
     closeModal(modal1);
   });
 });
-
