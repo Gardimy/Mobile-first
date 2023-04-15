@@ -782,7 +782,7 @@ nav {
 
 .snapshootpop {
   height: 220px;
-  width: 311px;
+  width: 100%;
   left: 16px;
   top: 112px;
   border-radius: 8px;
@@ -794,7 +794,7 @@ nav {
 
 .description-pop {
   height: 100%;
-  width: 311px;
+  width: 100%;
   left: 0;
   top: 0;
   color: #344563;
