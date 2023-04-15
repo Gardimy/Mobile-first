@@ -782,7 +782,7 @@ nav {
 
 .snapshootpop {
   height: 220px;
-  width: 100%;
+  width: 311px;
   left: 16px;
   top: 112px;
   border-radius: 8px;
@@ -794,7 +794,7 @@ nav {
 
 .description-pop {
   height: 100%;
-  width: 100%;
+  width: 311px;
   left: 0;
   top: 0;
   color: #344563;
@@ -831,7 +831,8 @@ nav {
   display: flex;
   flex-direction: row;
   gap: 12px;
-  margin-top: 25px;
+  margin-top: 30px;
+  margin-left: 20px;
 }
 
 .seelive {
@@ -1557,7 +1558,7 @@ nav {
   .desktoppop {
     display: block;
     height: 586px;
-    width: 1108px;
+    width: 1156px;
     left: 0;
     top: 0;
     border-radius: 8px;
