@@ -693,7 +693,9 @@ label {
 .description3,
 .description4,
 .Tonic4,
-.offer4 {
+.offer4,
+.description-pop2,
+.skillspop2 {
   display: none;
 }
 
@@ -701,7 +703,6 @@ label {
 .modal1,
 .modal2,
 .modal3 {
-
   position: fixed;
   top: 50%;
   left: 50%;
@@ -776,7 +777,7 @@ nav {
   list-style: none;
   margin: 0;
   padding-left: 14px;
-  height: 36px;
+  height: 45px;
 }
 
 .snapshootpop {
@@ -809,10 +810,28 @@ nav {
   padding-left: 10px;
 }
 
+.dailypop {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.skillspop {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  gap: 10px;
+  padding-left: 0;
+}
+
 .see-live {
   display: flex;
   flex-direction: row;
   gap: 12px;
+  margin-top: 25px;
 }
 
 .seelive {
@@ -833,6 +852,17 @@ nav {
   cursor: pointer;
   margin: 12px 0;
   transition: all 0.4s ease-in-out;
+}
+
+.seelive:hover {
+  background-color: #6070fff5;
+  color: #fff;
+  transform: translateY(-5px);
+}
+
+.seelive:active {
+  background-color: #2231d2e7;
+  color: #fff;
 }
 
 #overlay {
@@ -1505,7 +1535,9 @@ nav {
   }
 
   .modal0,
-  .modal1 {
+  .modal1,
+  .modal2,
+  .modal3 {
     width: 85%;
   }
 
@@ -1531,7 +1563,53 @@ nav {
     border-radius: 8px;
   }
 
-  .offer-pop {
+  .dailypop {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .description-pop {
+    display: none;
+  }
+
+  .description-pop2 {
+    height: 271px;
+    width: 778px;
+    left: 0;
+    top: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0;
+    text-align: left;
+    display: block;
+    color: #344563;
+  }
+
+  .skillspop {
+    display: none;
+  }
+
+  .dailypop .skillspop {
+    margin-top: 20px;
+  }
+
+  .skillspop2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    gap: 8px;
+    padding-left: 0;
+    height: 50px;
+  }
+
+  .dailypop .see-live {
+    margin-top: 8%;
+  }
+
+  .seelive .offer-pop {
     display: flex;
     align-items: flex-start;
     gap: 13px;
@@ -1540,32 +1618,5 @@ nav {
     margin: 0;
     padding-left: 14px;
     height: 36px;
-  }
-
-
-  .see-live {
-    display: flex;
-    flex-direction: row;
-    gap: 12px;
-  }
-
-  .seelive {
-    display: flex;
-    align-items: center;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-    text-decoration: none;
-    text-align: center;
-    letter-spacing: 0.03em;
-    padding: 12px;
-    color: #396df2;
-    background: transparent;
-    border-radius: 8px;
-    border: 1px solid #5564eb;
-    cursor: pointer;
-    margin: 12px 0;
-    transition: all 0.4s ease-in-out;
   }
 }

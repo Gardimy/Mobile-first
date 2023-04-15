@@ -93,16 +93,28 @@ modal0.insertAdjacentHTML(
  
     <div class="dailypop">
        <p class="description-pop">${containersworks[0].description}</p>
-       
+        <p class="description-pop2">${containersworks[0].descriptionpop}</p>
+       <div>
        <ul class="skillspop">
        <li class="htl"><a href="#"></a>${containersworks[0].skills[0]}</li>
        <li class="css"><a href="#"></a>${containersworks[0].skills[1]}</li>
        <li class="js"><a href="#"></a>${containersworks[0].skills[2]}</li>
        </ul>
+
+       <ul class="skillspop2">
+       <li class="htl"><a href="#"></a>${containersworks[0].skills[0]}</li>
+       <li class="css"><a href="#"></a>${containersworks[0].skills[1]}</li>
+       <li class="js"><a href="#"></a>${containersworks[0].skills[2]}</li>
+       </ul>
+       <ul class="skillspop2">
+       <li class="css"><a href="#"></a>${containersworks[0].skills[3]}</li>
+       <li class="js"><a href="#"></a>${containersworks[0].skills[4]}</li>
+       </ul>
        <div class="see-live">
           <a href="#" class="seelive">See live <img class="img-live" src="./Images/live.png" alt="live" width="24"></a>
           <a href="#" class="seelive">See Source <img class="img-live" src="./Images/Vector.png" alt="live" width="24"></a>
        </div>
+     </div>
      </div>
      `,
 );
@@ -117,32 +129,45 @@ modal1.insertAdjacentHTML(
         <button class='closepopup'>&times;</button>
     </nav>
   <ul class="offer-pop">
-  <li class="canopy">${containersworks[0].offer[0]}</li>
+  <li class="canopy">${containersworks[1].offer[0]}</li>
   <span class="point"></span>
   <li class="backend">${containersworks[1].offer[1]}</li>
   <span class="point"></span>
-  <li class="year">${containersworks[2].offer[2]}</li>
+  <li class="year">${containersworks[1].offer[2]}</li>
 </ul>
     <img class="snapshootpop" src="${containersworks[1].snapshoot}" alt="mobile image">
     <img class="desktoppop" src="${containersworks[1].desktop}" alt="Desktop Image">
  
-    <div class="daily">
-       <p class="description-pop">${containersworks[0].description}</p>
-       
-       <ul class="skills">
-       <li class="htl"><a href="#"></a>${containersworks[0].skills[0]}</li>
+    <div class="dailypop">
+       <p class="description-pop">${containersworks[1].description}</p>
+        <p class="description-pop2">${containersworks[1].descriptionpop}</p>
+       <div>
+       <ul class="skillspop">
+       <li class="htl"><a href="#"></a>${containersworks[1].skills[0]}</li>
        <li class="css"><a href="#"></a>${containersworks[1].skills[1]}</li>
-       <li class="js"><a href="#"></a>${containersworks[2].skills[2]}</li>
+       <li class="js"><a href="#"></a>${containersworks[1].skills[2]}</li>
+       </ul>
+
+       <ul class="skillspop2">
+       <li class="htl"><a href="#"></a>${containersworks[1].skills[0]}</li>
+       <li class="css"><a href="#"></a>${containersworks[1].skills[1]}</li>
+       <li class="js"><a href="#"></a>${containersworks[1].skills[2]}</li>
+        </ul>
+       <ul class="skillspop2">
+       <li class="css"><a href="#"></a>${containersworks[1].skills[3]}</li>
+       <li class="js"><a href="#"></a>${containersworks[1].skills[4]}</li>
        </ul>
        <div class="see-live">
           <a href="#" class="seelive">See live <img class="img-live" src="./Images/live.png" alt="live" width="24"></a>
           <a href="#" class="seelive">See Source <img class="img-live" src="./Images/Vector.png" alt="live" width="24"></a>
        </div>
      </div>
+     </div>
      `,
 );
 
 const modal2 = document.querySelector('.modal2');
+
 modal2.insertAdjacentHTML(
   'afterbegin',
   `
@@ -151,32 +176,45 @@ modal2.insertAdjacentHTML(
         <button class='closepopup'>&times;</button>
     </nav>
   <ul class="offer-pop">
-  <li class="canopy">${containersworks[0].offer[0]}</li>
+  <li class="canopy">${containersworks[2].offer[0]}</li>
   <span class="point"></span>
-  <li class="backend">${containersworks[1].offer[1]}</li>
+  <li class="backend">${containersworks[2].offer[1]}</li>
   <span class="point"></span>
   <li class="year">${containersworks[2].offer[2]}</li>
 </ul>
-    <img class="snapshootpop" src="Images/Snapshoot3.png" alt="mobile image">
+    <img class="snapshootpop" src="${containersworks[2].snapshoot}" alt="mobile image">
     <img class="desktoppop" src="${containersworks[2].desktop}" alt="Desktop Image">
  
-    <div class="daily">
-       <p class="description-pop">${containersworks[0].description}</p>
-       
-       <ul class="skills">
-       <li class="htl"><a href="#"></a>${containersworks[0].skills[0]}</li>
-       <li class="css"><a href="#"></a>${containersworks[1].skills[1]}</li>
+    <div class="dailypop">
+       <p class="description-pop">${containersworks[2].description}</p>
+        <p class="description-pop2">${containersworks[2].descriptionpop}</p>
+       <div>
+       <ul class="skillspop">
+       <li class="htl"><a href="#"></a>${containersworks[2].skills[0]}</li>
+       <li class="css"><a href="#"></a>${containersworks[2].skills[1]}</li>
        <li class="js"><a href="#"></a>${containersworks[2].skills[2]}</li>
+       </ul>
+
+       <ul class="skillspop2">
+       <li class="htl"><a href="#"></a>${containersworks[2].skills[0]}</li>
+       <li class="css"><a href="#"></a>${containersworks[2].skills[1]}</li>
+       <li class="js"><a href="#"></a>${containersworks[2].skills[2]}</li>
+        </ul>
+       <ul class="skillspop2">
+       <li class="css"><a href="#"></a>${containersworks[2].skills[3]}</li>
+       <li class="js"><a href="#"></a>${containersworks[2].skills[4]}</li>
        </ul>
        <div class="see-live">
           <a href="#" class="seelive">See live <img class="img-live" src="./Images/live.png" alt="live" width="24"></a>
           <a href="#" class="seelive">See Source <img class="img-live" src="./Images/Vector.png" alt="live" width="24"></a>
        </div>
      </div>
+     </div>
      `,
 );
 
 const modal3 = document.querySelector('.modal3');
+
 modal3.insertAdjacentHTML(
   'afterbegin',
   `
@@ -185,27 +223,39 @@ modal3.insertAdjacentHTML(
         <button class='closepopup'>&times;</button>
     </nav>
   <ul class="offer-pop">
-  <li class="canopy">${containersworks[0].offer[0]}</li>
+  <li class="canopy">${containersworks[3].offer[0]}</li>
   <span class="point"></span>
-  <li class="backend">${containersworks[1].offer[1]}</li>
+  <li class="backend">${containersworks[3].offer[1]}</li>
   <span class="point"></span>
-  <li class="year">${containersworks[2].offer[2]}</li>
+  <li class="year">${containersworks[3].offer[2]}</li>
 </ul>
     <img class="snapshootpop" src="${containersworks[3].snapshoot}" alt="mobile image">
     <img class="desktoppop" src="${containersworks[3].desktop}" alt="Desktop Image">
  
-    <div class="daily">
-       <p class="description-pop">${containersworks[0].description}</p>
-       
-       <ul class="skills">
-       <li class="htl"><a href="#"></a>${containersworks[0].skills[0]}</li>
-       <li class="css"><a href="#"></a>${containersworks[1].skills[1]}</li>
-       <li class="js"><a href="#"></a>${containersworks[2].skills[2]}</li>
+    <div class="dailypop">
+       <p class="description-pop">${containersworks[3].description}</p>
+        <p class="description-pop2">${containersworks[3].descriptionpop}</p>
+       <div>
+       <ul class="skillspop">
+       <li class="htl"><a href="#"></a>${containersworks[3].skills[0]}</li>
+       <li class="css"><a href="#"></a>${containersworks[3].skills[1]}</li>
+       <li class="js"><a href="#"></a>${containersworks[3].skills[2]}</li>
+       </ul>
+
+       <ul class="skillspop2">
+       <li class="htl"><a href="#"></a>${containersworks[3].skills[0]}</li>
+       <li class="css"><a href="#"></a>${containersworks[3].skills[1]}</li>
+       <li class="js"><a href="#"></a>${containersworks[3].skills[2]}</li>
+      </ul>
+       <ul class="skillspop2">
+       <li class="css"><a href="#"></a>${containersworks[3].skills[3]}</li>
+       <li class="js"><a href="#"></a>${containersworks[3].skills[4]}</li>
        </ul>
        <div class="see-live">
           <a href="#" class="seelive">See live <img class="img-live" src="./Images/live.png" alt="live" width="24"></a>
           <a href="#" class="seelive">See Source <img class="img-live" src="./Images/Vector.png" alt="live" width="24"></a>
        </div>
+     </div>
      </div>
      `,
 );
@@ -214,56 +264,27 @@ const seeproject = document.querySelectorAll('.seeproject');
 const closepop = document.querySelectorAll('.closepopup');
 const overlay = document.getElementById('overlay');
 
-// seeproject.forEach((opt) => {
-//   opt.addEventListener('click', () => {
-//     const modal0 = document.querySelector(opt.seeproject);
-//   });
-// });
-
 seeproject[0].addEventListener('click', () => {
   modal0.classList.add('active');
   overlay.classList.add('active');
 });
 
+function closeModal0(modal0) {
+  if (modal0 == null) return;
+  modal0.classList.remove('active');
+  overlay.classList.remove('active');
+}
+
+closepop.forEach((button) => {
+  button.addEventListener('click', () => {
+    const modal0 = button.closest('.modal0');
+    closeModal0(modal0);
+  });
+});
+
 seeproject[1].addEventListener('click', () => {
   modal1.classList.add('active');
   overlay.classList.add('active');
-});
-
-closepop.forEach((button) => {
-  button.addEventListener('click', () => {
-    const closeModal1 = button.closest('.modal1');
-    closeModal1(modal1);
-  });
-});
-
-seeproject[2].addEventListener('click', () => {
-  modal3.classList.add('active');
-  overlay.classList.add('active');
-});
-
-seeproject[3].addEventListener('click', () => {
-  modal3.classList.add('active');
-  overlay.classList.add('active');
-});
-
-// function openModal(modal0) {
-//   // if (modal0 == null) return;
-//   modal0.classList.add('active');
-//   overlay.classList.add('active');
-// }
-
-// function closeModal(modal0) {
-//   if (modal0 == null) return;
-//   modal0.classList.remove('active');
-//   overlay.classList.remove('active');
-// }
-
-closepop.forEach((button) => {
-  button.addEventListener('click', () => {
-    const closeModal = button.closest('.modal0');
-    closeModal(modal0);
-  });
 });
 
 function closeModal1(modal1) {
@@ -272,13 +293,6 @@ function closeModal1(modal1) {
   overlay.classList.remove('active');
 }
 
-// seeproject.forEach((button) => {
-//   button.addEventListener('click', () => {
-//     const modal1 = document.querySelector(button.dataset.modalTarget);
-//     // openModal(modal1);
-//   });
-// });
-
 closepop.forEach((button) => {
   button.addEventListener('click', () => {
     const modal1 = button.closest('.modal1');
@@ -286,16 +300,38 @@ closepop.forEach((button) => {
   });
 });
 
-overlay.addEventListener('click', () => {
-  const closeModal = document.querySelectorAll('.modal0.active');
-  closeModal.forEach((modal0) => {
-    closeModal(modal0);
+seeproject[2].addEventListener('click', () => {
+  modal2.classList.add('active');
+  overlay.classList.add('active');
+});
+
+function closeModal2(modal2) {
+  if (modal2 == null) return;
+  modal2.classList.remove('active');
+  overlay.classList.remove('active');
+}
+
+closepop.forEach((button) => {
+  button.addEventListener('click', () => {
+    const modal2 = button.closest('.modal2');
+    closeModal2(modal2);
   });
 });
 
-overlay.addEventListener('click', () => {
-  const closeModal = document.querySelectorAll('.modal1.active');
-  closeModal.forEach((modal1) => {
-    closeModal(modal1);
+seeproject[3].addEventListener('click', () => {
+  modal3.classList.add('active');
+  overlay.classList.add('active');
+});
+
+function closeModal3(modal3) {
+  if (modal3 == null) return;
+  modal3.classList.remove('active');
+  overlay.classList.remove('active');
+}
+
+closepop.forEach((button) => {
+  button.addEventListener('click', () => {
+    const modal3 = button.closest('.modal3');
+    closeModal3(modal3);
   });
 });
