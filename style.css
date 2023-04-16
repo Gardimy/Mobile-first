@@ -715,6 +715,7 @@ label {
   height: 89%;
   padding: 12px;
   overflow-y: scroll;
+  display: block;
 }
 
 .modal0.active,
