@@ -1,12 +1,12 @@
 const containersworks = [
   {
+    class: 'container1',
     snapshoot: 'Images/Snapshoot1.png',
     desktop: 'Images/Desktop-img1.png',
     Tonic: 'Tonic',
     offer: ['CANOPY', 'Back End Dev', '2015'],
-    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. has been the industry's standard dummy text ever since the 1500s, 
-     when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`,
+    description: `A daily selection of privately personalized reads; no accounts or
+            sign-ups required`,
     descriptionpop: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley 
     of type and scrambled it 1960s. Lorem Ipsum is 
     simply dummy text of the printing and typesetting industry. 
@@ -17,15 +17,15 @@ const containersworks = [
 
   },
   {
+    class: 'container1',
     snapshoot: 'Images/Snapshoot2.png',
     desktop: 'Images/Desktop-img2.png',
     Tonic: 'Multi-Post Stories',
     offer: ['CANOPY', 'Back End Dev', '2015'],
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-    At eos qui possimus nisi ducimus delectus enim beatae natus 
-    ab? Natus minima minus similique nisi eos, deleniti laudantium 
-    nihil impedit assumenda! ducimus delectus enim beatae natus 
-    ab? Natus minima minusbsbusb dkdnojdpckdc dkpkvpdkdfd  djgjwoajsmlncknckdv`,
+
+    description: `Experimental content creation feature that allows users to add to an
+            existing story over the course of a day without spamming their
+            friends.`,
     descriptionpop: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley 
     of type and scrambled it 1960s. Lorem Ipsum is 
     simply dummy text of the printing and typesetting industry. 
@@ -35,15 +35,13 @@ const containersworks = [
     skills: ['HTML', 'css', 'javaScript', 'Ruby', 'Boostrap'],
   },
   {
+    class: 'container1',
     snapshoot: 'Images/Snapshoot3.png',
     desktop: 'Images/Desktop-img3.png',
     Tonic: 'Tonic',
     offer: ['CANOPY', 'Back End Dev', '2015'],
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-    At eos qui possimus nisi ducimus delectus enim beatae natus 
-    ab? Natus minima minus similique nisi eos, deleniti laudantium 
-    nihil impedit assumenda! ducimus delectus enim beatae natus 
-    ab? Natus minima minusbsbusb dkdnojdpckdc dkpkvpdkdfd  djgjwoajsmlncknckdv`,
+    description: `A daily selection of privately personalized reads; no accounts or
+            sign-ups required`,
     descriptionpop: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley 
     of type and scrambled it 1960s. Lorem Ipsum is 
     simply dummy text of the printing and typesetting industry. 
@@ -53,15 +51,14 @@ const containersworks = [
     skills: ['HTML', 'css', 'javaScript', 'Ruby', 'Boostrap'],
   },
   {
+
+    class: 'container1',
     snapshoot: 'Images/Snapshoot4.png',
     desktop: 'Images/Desktop-img4.png',
     Tonic: 'Multi-Post Stories',
     offer: ['CANOPY', 'Back End Dev', '2015'],
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-    At eos qui possimus nisi ducimus delectus enim beatae natus 
-    ab? Natus minima minus similique nisi eos, deleniti laudantium 
-    nihil impedit assumenda! ducimus delectus enim beatae natus 
-    ab? Natus minima minusbsbusb dkdnojdpckdc dkpkvpdkdfd  djgjwoajsmlncknckdv`,
+    description: `A daily selection of privately personalized reads; no accounts or
+            sign-ups required.`,
     descriptionpop: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley 
     of type and scrambled it 1960s. Lorem Ipsum is 
     simply dummy text of the printing and typesetting industry. 
@@ -72,196 +69,41 @@ const containersworks = [
   },
 ];
 
-const Workcards = document.getElementById('containers');
+const Workcards = document.getElementById('container');
 
-Workcards.innerHTML = `
-  <div class="container1" id="container1" data-modal-target="#modal1">
+containersworks.forEach((item2) => {
+  Workcards.innerHTML += `
+<div class="${item2.class}">
         <img
           class="desktop-image"
-          src="Images/Desktop-img1.png"
+          src="${item2.desktop}"
           alt="Project Image"
         />
         <img
           class="snapshoot"
-          src="Images/Snapshoot1.png"
+          src="${item2.snapshoot}"
           alt="Project Image"
         />
         <div class="daily">
-          <h3 class="Tonic">Tonic</h3>
+          <h3 class="Tonic">${item2.Tonic}</h3>
           <ul class="offer">
-            <li class="canopy">canopy</li>
+            <li class="canopy">${item2.offer[0]}</li>
             <span class="point"></span>
-            <li class="backend">Back End Dev</li>
+            <li class="backend">${item2.offer[1]}</li>
             <span class="point"></span>
-            <li class="year">2015</li>
+            <li class="year">${item2.offer[2]}</li>
           </ul>
-          <p class="description">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-
+            <p class="description">${item2.description}</p>
           <ul class="skills">
-            <li class="htl"><a href="#"></a>html</li>
-            <li class="css"><a href="#"></a>css</li>
-            <li class="js"><a href="#"></a>javascript</li>
+            <li class="htl"><a href="#"></a>${item2.skills[0]}</li>
+            <li class="css"><a href="#"></a>${item2.skills[1]}</li>
+            <li class="js"><a href="#"></a>${item2.skills[2]}</li>
           </ul>
           <button class="seeproject" data-modal-target="#modal1">See Project</button>
-        </div>
-      </div>
-
-      <div class="container2 desktop-reverse" id="container2" data-modal-target="#modal0">
-        <img
-          class="desktop-image"
-          src="Images/Desktop-img2.png"
-          alt="Project Image"
-        />
-        <img class="snapshoot" src="Images/Snapshoot2.png" alt="mobile image" />
-        <div class="daily">
-          <h2 class="Tonic2">Multi-Post Stories</h2>
-          <ul class="offer">
-            <li class="canopy">canopy</li>
-            <span class="point"></span>
-            <li class="backend">Back End Dev</li>
-            <span class="point"></span>
-            <li class="year">2015</li>
-          </ul>
-          <ul class="offer2">
-            <li class="canopy">FACEBOOK</li>
-            <span class="point"></span>
-            <li class="backend">Full Stack Dev</li>
-            <span class="point"></span>
-            <li class="year">2015</li>
-          </ul>
-          <p class="description">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <p class="description2">
-            Experimental content creation feature that allows users to add to an
-            existing story over the course of a day without spamming their
-            friends.
-          </p>
-
-          <ul class="skills">
-            <li class="htl"><a href="#"></a>html</li>
-            <li class="css"><a href="#"></a>css</li>
-            <li class="js"><a href="#"></a>javascript</li>
-          </ul>
-          <ul class="skills2">
-            <li class="htl"><a href="#"></a>html</li>
-            <li class="js"><a href="#"></a>Ruby On rails</li>
-            <li class="css"><a href="#"></a>css</li>
-            <li class="js"><a href="#"></a>javascript</li>
-          </ul>
-          <button class="seeproject" data-modal-target="#modal0">See Project</button>
-        </div>
-      </div>
-
-      <div class="container3" id="container3" data-modal-target="#modal1">
-        <img
-          class="desktop-image"
-          src="Images/Desktop-img3.png"
-          alt="Project Image"
-        />
-        <img
-          class="snapshoot"
-          src="Images/Snapshoot3.png"
-          alt="Project image"
-        />
-        <div class="daily">
-          <h2 class="Tonic">Tonic</h2>
-          <h2 class="Tonic3">Facebook 360</h2>
-          <ul class="offer">
-            <li class="canopy">canopy</li>
-            <span class="point"></span>
-            <li class="backend">Back End Dev</li>
-            <span class="point"></span>
-            <li class="year">2015</li>
-          </ul>
-          <ul class="offer2">
-            <li class="canopy">FACEBOOK</li>
-            <span class="point"></span>
-            <li class="backend">Full Stack Dev</li>
-            <span class="point"></span>
-            <li class="year">2015</li>
-          </ul>
-          <p class="description">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <p class="description3">
-            Exploring the future of media in Facebook's first Virtual Reality
-            app; a place to discover and enjoy 360 photos and videos on Gear VR.
-          </p>
-
-          <ul class="skills">
-            <li class="htl"><a href="#"></a>html</li>
-            <li class="css"><a href="#"></a>css</li>
-            <li class="js"><a href="#"></a>javascript</li>
-          </ul>
-          <ul class="skills2">
-            <li class="htl"><a href="#"></a>html</li>
-            <li class="js"><a href="#"></a>Ruby On rails</li>
-            <li class="css"><a href="#"></a>css</li>
-            <li class="js"><a href="#"></a>javascript</li>
-          </ul>
-          <button class="seeproject" data-modal-target="#modal1">See Project</button>
-        </div>
-      </div>
-
-      <div class="container4 desktop-reverse" id="container4" data-modal-target="#modal0">
-        <img
-          class="snapshoot"
-          src="Images/Snapshoot4.png"
-          alt="Project image"
-        />
-        <img
-          class="desktop-image"
-   
-          src="Images/Desktop-img4.png"
-          alt="Project Image"
-        />
-        <div class="daily">
-          <h2 class="Tonic2">Multi-Post Stories</h2>
-          <h2 class="Tonic4">Uber Navigation</h2>
-          <ul class="offer">
-            <li class="canopy">canopy</li>
-            <span class="point"></span>
-            <li class="backend">Back End Dev</li>
-            <span class="point"></span>
-            <li class="year">2015</li>
-          </ul>
-          <ul class="offer4">
-            <li class="canopy">Uber</li>
-            <span class="point"></span>
-            <li class="backend">Lead Developer</li>
-            <span class="point"></span>
-            <li class="year">2018</li>
-          </ul>
-          <p class="description">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <p class="description4">
-            A smart assistant to make driving more safe, efficient, and fun by
-            unlocking your most expensive computer: your car.
-          </p>
-
-          <ul class="skills">
-            <li class="htl"><a href="#"></a>html</li>
-            <li class="css"><a href="#"></a>css</li>
-            <li class="js"><a href="#"></a>javascript</li>
-          </ul>
-          <ul class="skills2">
-            <li class="htl"><a href="#"></a>html</li>
-            <li class="js"><a href="#"></a>Ruby On rails</li>
-            <li class="css"><a href="#"></a>css</li>
-            <li class="js"><a href="#"></a>javascript</li>
-          </ul>
-          <button class="seeproject" data-modal-target="#modal0">See Project</button>
         </div>
       </div>
 `;
+});
 
 const modal0 = document.querySelector('.modal0');
 
