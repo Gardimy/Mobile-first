@@ -348,7 +348,6 @@ header {
 
 .description {
   width: 288px;
-  height: 76px;
   top: 92px;
   font-style: normal;
   font-weight: 400;
@@ -711,7 +710,7 @@ label {
   border-radius: 14px;
   z-index: 10;
   background-color: #fff;
-  width: 90%;
+  width: 86%;
   height: 89%;
   padding: 12px;
   overflow-y: scroll;
@@ -832,7 +831,7 @@ nav {
   flex-direction: row;
   gap: 12px;
   margin-top: 30px;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .seelive {

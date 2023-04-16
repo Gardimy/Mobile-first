@@ -7,6 +7,8 @@ const containersworks = [
     offer: ['CANOPY', 'Back End Dev', '2015'],
     description: `A daily selection of privately personalized reads; no accounts or
             sign-ups required`,
+    descriptionpop1: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`,
     descriptionpop: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley 
     of type and scrambled it 1960s. Lorem Ipsum is 
     simply dummy text of the printing and typesetting industry. 
@@ -26,6 +28,8 @@ const containersworks = [
     description: `Experimental content creation feature that allows users to add to an
             existing story over the course of a day without spamming their
             friends.`,
+    descriptionpop1: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`,
     descriptionpop: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley 
     of type and scrambled it 1960s. Lorem Ipsum is 
     simply dummy text of the printing and typesetting industry. 
@@ -42,6 +46,8 @@ const containersworks = [
     offer: ['CANOPY', 'Back End Dev', '2015'],
     description: `A daily selection of privately personalized reads; no accounts or
             sign-ups required`,
+    descriptionpop1: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`,
     descriptionpop: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley 
     of type and scrambled it 1960s. Lorem Ipsum is 
     simply dummy text of the printing and typesetting industry. 
@@ -59,6 +65,8 @@ const containersworks = [
     offer: ['CANOPY', 'Back End Dev', '2015'],
     description: `A daily selection of privately personalized reads; no accounts or
             sign-ups required.`,
+    descriptionpop1: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`,
     descriptionpop: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley 
     of type and scrambled it 1960s. Lorem Ipsum is 
     simply dummy text of the printing and typesetting industry. 
@@ -125,7 +133,7 @@ modal0.insertAdjacentHTML(
     <img class="desktoppop" src="${containersworks[0].desktop}" alt="Desktop Image">
  
     <div class="dailypop">
-       <p class="description-pop">${containersworks[0].description}</p>
+       <p class="description-pop">${containersworks[0].descriptionpop1}</p>
         <p class="description-pop2">${containersworks[0].descriptionpop}</p>
        <div>
        <ul class="skillspop">
@@ -172,7 +180,7 @@ modal1.insertAdjacentHTML(
     <img class="desktoppop" src="${containersworks[1].desktop}" alt="Desktop Image">
  
     <div class="dailypop">
-       <p class="description-pop">${containersworks[1].description}</p>
+       <p class="description-pop">${containersworks[1].descriptionpop1}</p>
         <p class="description-pop2">${containersworks[1].descriptionpop}</p>
        <div>
        <ul class="skillspop">
@@ -219,7 +227,7 @@ modal2.insertAdjacentHTML(
     <img class="desktoppop" src="${containersworks[2].desktop}" alt="Desktop Image">
  
     <div class="dailypop">
-       <p class="description-pop">${containersworks[2].description}</p>
+       <p class="description-pop">${containersworks[2].descriptionpop1}</p>
         <p class="description-pop2">${containersworks[2].descriptionpop}</p>
        <div>
        <ul class="skillspop">
@@ -266,7 +274,7 @@ modal3.insertAdjacentHTML(
     <img class="desktoppop" src="${containersworks[3].desktop}" alt="Desktop Image">
  
     <div class="dailypop">
-       <p class="description-pop">${containersworks[3].description}</p>
+       <p class="description-pop">${containersworks[3].descriptionpop1}</p>
         <p class="description-pop2">${containersworks[3].descriptionpop}</p>
        <div>
        <ul class="skillspop">
