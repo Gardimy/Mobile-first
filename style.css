@@ -711,8 +711,8 @@ label {
   border-radius: 14px;
   z-index: 10;
   background-color: #fff;
-  width: 90%%;
-  height: 90%%;
+  width: 90%;
+  height: 89%;
   padding: 12px;
   overflow-y: scroll;
 }
@@ -1540,8 +1540,6 @@ nav {
   .modal3 {
     width: 85%;
   }
-
-
 
   .Tonicpop {
     justify-content: center;
