@@ -22,7 +22,7 @@ const containersworks = [
     desktop: 'Images/Desktop-img2.png',
     Tonic: 'Multi-Post Stories',
     offer: ['CANOPY', 'Back End Dev', '2015'],
-    
+
     description: `Experimental content creation feature that allows users to add to an
             existing story over the course of a day without spamming their
             friends.`,
@@ -72,7 +72,7 @@ const containersworks = [
 const Workcards = document.getElementById('container');
 
 containersworks.forEach((item2) => {
-Workcards.innerHTML += `
+  Workcards.innerHTML += `
 <div class="${item2.class}">
         <img
           class="desktop-image"
@@ -103,7 +103,6 @@ Workcards.innerHTML += `
         </div>
       </div>
 `;
-
 });
 
 const modal0 = document.querySelector('.modal0');
