@@ -22,7 +22,7 @@ const containersworks = [
     desktop: 'Images/Desktop-img2.png',
     Tonic: 'Multi-Post Stories',
     offer: ['CANOPY', 'Back End Dev', '2015'],
-
+    
     description: `Experimental content creation feature that allows users to add to an
             existing story over the course of a day without spamming their
             friends.`,
@@ -72,7 +72,7 @@ const containersworks = [
 const Workcards = document.getElementById('container');
 
 containersworks.forEach((item2) => {
-  Workcards.innerHTML += `
+Workcards.innerHTML += `
 <div class="${item2.class}">
         <img
           class="desktop-image"
@@ -103,44 +103,46 @@ containersworks.forEach((item2) => {
         </div>
       </div>
 `;
+
 });
 
-const modal0 = document.getElementById('modal0');
-containersworks.forEach((item2) => {
-modal0.innerHTML =`
-  
+const modal0 = document.querySelector('.modal0');
+
+modal0.insertAdjacentHTML(
+  'afterbegin',
+  `
    <nav>
-        <h2 class='Tonicpop'>${item2.Tonic}</h2>
+        <h2 class='Tonicpop'>${containersworks[0].Tonic}</h2>
         <button class='closepopup'>&times;</button>
     </nav>
   <ul class="offer-pop">
-  <li class="canopy">${item2.offer[0]}</li>
+  <li class="canopy">${containersworks[0].offer[0]}</li>
   <span class="point"></span>
-  <li class="backend">${item2.offer[1]}</li>
+  <li class="backend">${containersworks[1].offer[1]}</li>
   <span class="point"></span>
-  <li class="year">${item2.offer[2]}</li>
+  <li class="year">${containersworks[2].offer[2]}</li>
 </ul>
-    <img class="snapshootpop" src="${item2.snapshoot}" alt="mobile image">
-    <img class="desktoppop" src="${item2.desktop}" alt="Desktop Image">
+    <img class="snapshootpop" src="${containersworks[0].snapshoot}" alt="mobile image">
+    <img class="desktoppop" src="${containersworks[0].desktop}" alt="Desktop Image">
  
     <div class="dailypop">
-       <p class="description-pop">${item2.description}</p>
-        <p class="description-pop2">${item2.descriptionpop}</p>
+       <p class="description-pop">${containersworks[0].description}</p>
+        <p class="description-pop2">${containersworks[0].descriptionpop}</p>
        <div>
        <ul class="skillspop">
-       <li class="htl"><a href="#"></a>${item2.skills[0]}</li>
-       <li class="css"><a href="#"></a>${item2.skills[1]}</li>
-       <li class="js"><a href="#"></a>${item2.skills[2]}</li>
+       <li class="htl"><a href="#"></a>${containersworks[0].skills[0]}</li>
+       <li class="css"><a href="#"></a>${containersworks[0].skills[1]}</li>
+       <li class="js"><a href="#"></a>${containersworks[0].skills[2]}</li>
        </ul>
 
        <ul class="skillspop2">
-       <li class="htl"><a href="#"></a>${item2.skills[0]}</li>
-       <li class="css"><a href="#"></a>${item2.skills[1]}</li>
+       <li class="htl"><a href="#"></a>${containersworks[0].skills[0]}</li>
+       <li class="css"><a href="#"></a>${containersworks[0].skills[1]}</li>
        <li class="js"><a href="#"></a>${containersworks[0].skills[2]}</li>
        </ul>
        <ul class="skillspop2">
-       <li class="css"><a href="#"></a>${item2.skills[3]}</li>
-       <li class="js"><a href="#"></a>${item2.skills[4]}</li>
+       <li class="css"><a href="#"></a>${containersworks[0].skills[3]}</li>
+       <li class="js"><a href="#"></a>${containersworks[0].skills[4]}</li>
        </ul>
        <div class="see-live">
           <a href="#" class="seelive">See live <img class="img-live" src="./Images/live.png" alt="live" width="24"></a>
@@ -148,45 +150,46 @@ modal0.innerHTML =`
        </div>
      </div>
      </div>
-     `;
-});
+     `,
+);
 
-const modal1 = document.getElementById('modal1');
-containersworks.forEach((item2) => {
-modal1.innerHTML =`
-  
+const modal1 = document.querySelector('.modal1');
+
+modal1.insertAdjacentHTML(
+  'afterbegin',
+  `
    <nav>
-        <h2 class='Tonicpop'>${item2.Tonic}</h2>
+        <h2 class='Tonicpop'>${containersworks[1].Tonic}</h2>
         <button class='closepopup'>&times;</button>
     </nav>
   <ul class="offer-pop">
-  <li class="canopy">${item2.offer[0]}</li>
+  <li class="canopy">${containersworks[1].offer[0]}</li>
   <span class="point"></span>
-  <li class="backend">${item2.offer[1]}</li>
+  <li class="backend">${containersworks[1].offer[1]}</li>
   <span class="point"></span>
-  <li class="year">${item2.offer[2]}</li>
+  <li class="year">${containersworks[1].offer[2]}</li>
 </ul>
-    <img class="snapshootpop" src="${item2.snapshoot}" alt="mobile image">
-    <img class="desktoppop" src="${item2.desktop}" alt="Desktop Image">
+    <img class="snapshootpop" src="${containersworks[1].snapshoot}" alt="mobile image">
+    <img class="desktoppop" src="${containersworks[1].desktop}" alt="Desktop Image">
  
     <div class="dailypop">
-       <p class="description-pop">${item2.description}</p>
-        <p class="description-pop2">${item2.descriptionpop}</p>
+       <p class="description-pop">${containersworks[1].description}</p>
+        <p class="description-pop2">${containersworks[1].descriptionpop}</p>
        <div>
        <ul class="skillspop">
-       <li class="htl"><a href="#"></a>${item2.skills[0]}</li>
-       <li class="css"><a href="#"></a>${item2.skills[1]}</li>
-       <li class="js"><a href="#"></a>${item2.skills[2]}</li>
+       <li class="htl"><a href="#"></a>${containersworks[1].skills[0]}</li>
+       <li class="css"><a href="#"></a>${containersworks[1].skills[1]}</li>
+       <li class="js"><a href="#"></a>${containersworks[1].skills[2]}</li>
        </ul>
 
        <ul class="skillspop2">
-       <li class="htl"><a href="#"></a>${item2.skills[0]}</li>
-       <li class="css"><a href="#"></a>${item2.skills[1]}</li>
-       <li class="js"><a href="#"></a>${containersworks[0].skills[2]}</li>
-       </ul>
+       <li class="htl"><a href="#"></a>${containersworks[1].skills[0]}</li>
+       <li class="css"><a href="#"></a>${containersworks[1].skills[1]}</li>
+       <li class="js"><a href="#"></a>${containersworks[1].skills[2]}</li>
+        </ul>
        <ul class="skillspop2">
-       <li class="css"><a href="#"></a>${item2.skills[3]}</li>
-       <li class="js"><a href="#"></a>${item2.skills[4]}</li>
+       <li class="css"><a href="#"></a>${containersworks[1].skills[3]}</li>
+       <li class="js"><a href="#"></a>${containersworks[1].skills[4]}</li>
        </ul>
        <div class="see-live">
           <a href="#" class="seelive">See live <img class="img-live" src="./Images/live.png" alt="live" width="24"></a>
@@ -194,45 +197,46 @@ modal1.innerHTML =`
        </div>
      </div>
      </div>
-     `;
-});
+     `,
+);
 
-const modal2 = document.getElementById('modal2');
-containersworks.forEach((item2) => {
-modal2.innerHTML =`
-  
+const modal2 = document.querySelector('.modal2');
+
+modal2.insertAdjacentHTML(
+  'afterbegin',
+  `
    <nav>
-        <h2 class='Tonicpop'>${item2.Tonic}</h2>
+        <h2 class='Tonicpop'>${containersworks[2].Tonic}</h2>
         <button class='closepopup'>&times;</button>
     </nav>
   <ul class="offer-pop">
-  <li class="canopy">${item2.offer[0]}</li>
+  <li class="canopy">${containersworks[2].offer[0]}</li>
   <span class="point"></span>
-  <li class="backend">${item2.offer[1]}</li>
+  <li class="backend">${containersworks[2].offer[1]}</li>
   <span class="point"></span>
-  <li class="year">${item2.offer[2]}</li>
+  <li class="year">${containersworks[2].offer[2]}</li>
 </ul>
-    <img class="snapshootpop" src="${item2.snapshoot}" alt="mobile image">
-    <img class="desktoppop" src="${item2.desktop}" alt="Desktop Image">
+    <img class="snapshootpop" src="${containersworks[2].snapshoot}" alt="mobile image">
+    <img class="desktoppop" src="${containersworks[2].desktop}" alt="Desktop Image">
  
     <div class="dailypop">
-       <p class="description-pop">${item2.description}</p>
-        <p class="description-pop2">${item2.descriptionpop}</p>
+       <p class="description-pop">${containersworks[2].description}</p>
+        <p class="description-pop2">${containersworks[2].descriptionpop}</p>
        <div>
        <ul class="skillspop">
-       <li class="htl"><a href="#"></a>${item2.skills[0]}</li>
-       <li class="css"><a href="#"></a>${item2.skills[1]}</li>
-       <li class="js"><a href="#"></a>${item2.skills[2]}</li>
+       <li class="htl"><a href="#"></a>${containersworks[2].skills[0]}</li>
+       <li class="css"><a href="#"></a>${containersworks[2].skills[1]}</li>
+       <li class="js"><a href="#"></a>${containersworks[2].skills[2]}</li>
        </ul>
 
        <ul class="skillspop2">
-       <li class="htl"><a href="#"></a>${item2.skills[0]}</li>
-       <li class="css"><a href="#"></a>${item2.skills[1]}</li>
-       <li class="js"><a href="#"></a>${containersworks[0].skills[2]}</li>
-       </ul>
+       <li class="htl"><a href="#"></a>${containersworks[2].skills[0]}</li>
+       <li class="css"><a href="#"></a>${containersworks[2].skills[1]}</li>
+       <li class="js"><a href="#"></a>${containersworks[2].skills[2]}</li>
+        </ul>
        <ul class="skillspop2">
-       <li class="css"><a href="#"></a>${item2.skills[3]}</li>
-       <li class="js"><a href="#"></a>${item2.skills[4]}</li>
+       <li class="css"><a href="#"></a>${containersworks[2].skills[3]}</li>
+       <li class="js"><a href="#"></a>${containersworks[2].skills[4]}</li>
        </ul>
        <div class="see-live">
           <a href="#" class="seelive">See live <img class="img-live" src="./Images/live.png" alt="live" width="24"></a>
@@ -240,45 +244,46 @@ modal2.innerHTML =`
        </div>
      </div>
      </div>
-     `;
-});
+     `,
+);
 
-const modal3 = document.getElementById('modal3');
-containersworks.forEach((item2) => {
-modal3.innerHTML =`
-  
+const modal3 = document.querySelector('.modal3');
+
+modal3.insertAdjacentHTML(
+  'afterbegin',
+  `
    <nav>
-        <h2 class='Tonicpop'>${item2.Tonic}</h2>
+        <h2 class='Tonicpop'>${containersworks[3].Tonic}</h2>
         <button class='closepopup'>&times;</button>
     </nav>
   <ul class="offer-pop">
-  <li class="canopy">${item2.offer[0]}</li>
+  <li class="canopy">${containersworks[3].offer[0]}</li>
   <span class="point"></span>
-  <li class="backend">${item2.offer[1]}</li>
+  <li class="backend">${containersworks[3].offer[1]}</li>
   <span class="point"></span>
-  <li class="year">${item2.offer[2]}</li>
+  <li class="year">${containersworks[3].offer[2]}</li>
 </ul>
-    <img class="snapshootpop" src="${item2.snapshoot}" alt="mobile image">
-    <img class="desktoppop" src="${item2.desktop}" alt="Desktop Image">
+    <img class="snapshootpop" src="${containersworks[3].snapshoot}" alt="mobile image">
+    <img class="desktoppop" src="${containersworks[3].desktop}" alt="Desktop Image">
  
     <div class="dailypop">
-       <p class="description-pop">${item2.description}</p>
-        <p class="description-pop2">${item2.descriptionpop}</p>
+       <p class="description-pop">${containersworks[3].description}</p>
+        <p class="description-pop2">${containersworks[3].descriptionpop}</p>
        <div>
        <ul class="skillspop">
-       <li class="htl"><a href="#"></a>${item2.skills[0]}</li>
-       <li class="css"><a href="#"></a>${item2.skills[1]}</li>
-       <li class="js"><a href="#"></a>${item2.skills[2]}</li>
+       <li class="htl"><a href="#"></a>${containersworks[3].skills[0]}</li>
+       <li class="css"><a href="#"></a>${containersworks[3].skills[1]}</li>
+       <li class="js"><a href="#"></a>${containersworks[3].skills[2]}</li>
        </ul>
 
        <ul class="skillspop2">
-       <li class="htl"><a href="#"></a>${item2.skills[0]}</li>
-       <li class="css"><a href="#"></a>${item2.skills[1]}</li>
-       <li class="js"><a href="#"></a>${containersworks[0].skills[2]}</li>
-       </ul>
+       <li class="htl"><a href="#"></a>${containersworks[3].skills[0]}</li>
+       <li class="css"><a href="#"></a>${containersworks[3].skills[1]}</li>
+       <li class="js"><a href="#"></a>${containersworks[3].skills[2]}</li>
+      </ul>
        <ul class="skillspop2">
-       <li class="css"><a href="#"></a>${item2.skills[3]}</li>
-       <li class="js"><a href="#"></a>${item2.skills[4]}</li>
+       <li class="css"><a href="#"></a>${containersworks[3].skills[3]}</li>
+       <li class="js"><a href="#"></a>${containersworks[3].skills[4]}</li>
        </ul>
        <div class="see-live">
           <a href="#" class="seelive">See live <img class="img-live" src="./Images/live.png" alt="live" width="24"></a>
@@ -286,8 +291,9 @@ modal3.innerHTML =`
        </div>
      </div>
      </div>
-     `;
-});
+     `,
+);
+
 const seeproject = document.querySelectorAll('.seeproject');
 const closepop = document.querySelectorAll('.closepopup');
 const overlay = document.getElementById('overlay');
