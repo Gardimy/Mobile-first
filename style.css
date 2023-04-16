@@ -711,7 +711,7 @@ label {
   border-radius: 14px;
   z-index: 10;
   background-color: #fff;
-  width: 80%;
+  width: 70%;
   height: 90%;
   padding: 12px;
   overflow: scroll;
@@ -782,7 +782,6 @@ nav {
 
 .snapshootpop {
   height: 220px;
-  width: 311px;
   left: 16px;
   top: 112px;
   border-radius: 8px;

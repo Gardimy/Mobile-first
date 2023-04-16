@@ -72,6 +72,197 @@ const containersworks = [
   },
 ];
 
+const Workcards = document.getElementById('containers');
+
+Workcards.innerHTML = `
+  <div class="container1" id="container1" data-modal-target="#modal1">
+        <img
+          class="desktop-image"
+          src="Images/Desktop-img1.png"
+          alt="Project Image"
+        />
+        <img
+          class="snapshoot"
+          src="Images/Snapshoot1.png"
+          alt="Project Image"
+        />
+        <div class="daily">
+          <h3 class="Tonic">Tonic</h3>
+          <ul class="offer">
+            <li class="canopy">canopy</li>
+            <span class="point"></span>
+            <li class="backend">Back End Dev</li>
+            <span class="point"></span>
+            <li class="year">2015</li>
+          </ul>
+          <p class="description">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+
+          <ul class="skills">
+            <li class="htl"><a href="#"></a>html</li>
+            <li class="css"><a href="#"></a>css</li>
+            <li class="js"><a href="#"></a>javascript</li>
+          </ul>
+          <button class="seeproject" data-modal-target="#modal1">See Project</button>
+        </div>
+      </div>
+
+      <div class="container2 desktop-reverse" id="container2" data-modal-target="#modal0">
+        <img
+          class="desktop-image"
+          src="Images/Desktop-img2.png"
+          alt="Project Image"
+        />
+        <img class="snapshoot" src="Images/Snapshoot2.png" alt="mobile image" />
+        <div class="daily">
+          <h2 class="Tonic2">Multi-Post Stories</h2>
+          <ul class="offer">
+            <li class="canopy">canopy</li>
+            <span class="point"></span>
+            <li class="backend">Back End Dev</li>
+            <span class="point"></span>
+            <li class="year">2015</li>
+          </ul>
+          <ul class="offer2">
+            <li class="canopy">FACEBOOK</li>
+            <span class="point"></span>
+            <li class="backend">Full Stack Dev</li>
+            <span class="point"></span>
+            <li class="year">2015</li>
+          </ul>
+          <p class="description">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <p class="description2">
+            Experimental content creation feature that allows users to add to an
+            existing story over the course of a day without spamming their
+            friends.
+          </p>
+
+          <ul class="skills">
+            <li class="htl"><a href="#"></a>html</li>
+            <li class="css"><a href="#"></a>css</li>
+            <li class="js"><a href="#"></a>javascript</li>
+          </ul>
+          <ul class="skills2">
+            <li class="htl"><a href="#"></a>html</li>
+            <li class="js"><a href="#"></a>Ruby On rails</li>
+            <li class="css"><a href="#"></a>css</li>
+            <li class="js"><a href="#"></a>javascript</li>
+          </ul>
+          <button class="seeproject" data-modal-target="#modal0">See Project</button>
+        </div>
+      </div>
+
+      <div class="container3" id="container3" data-modal-target="#modal1">
+        <img
+          class="desktop-image"
+          src="Images/Desktop-img3.png"
+          alt="Project Image"
+        />
+        <img
+          class="snapshoot"
+          src="Images/Snapshoot3.png"
+          alt="Project image"
+        />
+        <div class="daily">
+          <h2 class="Tonic">Tonic</h2>
+          <h2 class="Tonic3">Facebook 360</h2>
+          <ul class="offer">
+            <li class="canopy">canopy</li>
+            <span class="point"></span>
+            <li class="backend">Back End Dev</li>
+            <span class="point"></span>
+            <li class="year">2015</li>
+          </ul>
+          <ul class="offer2">
+            <li class="canopy">FACEBOOK</li>
+            <span class="point"></span>
+            <li class="backend">Full Stack Dev</li>
+            <span class="point"></span>
+            <li class="year">2015</li>
+          </ul>
+          <p class="description">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <p class="description3">
+            Exploring the future of media in Facebook's first Virtual Reality
+            app; a place to discover and enjoy 360 photos and videos on Gear VR.
+          </p>
+
+          <ul class="skills">
+            <li class="htl"><a href="#"></a>html</li>
+            <li class="css"><a href="#"></a>css</li>
+            <li class="js"><a href="#"></a>javascript</li>
+          </ul>
+          <ul class="skills2">
+            <li class="htl"><a href="#"></a>html</li>
+            <li class="js"><a href="#"></a>Ruby On rails</li>
+            <li class="css"><a href="#"></a>css</li>
+            <li class="js"><a href="#"></a>javascript</li>
+          </ul>
+          <button class="seeproject" data-modal-target="#modal1">See Project</button>
+        </div>
+      </div>
+
+      <div class="container4 desktop-reverse" id="container4" data-modal-target="#modal0">
+        <img
+          class="snapshoot"
+          src="Images/Snapshoot4.png"
+          alt="Project image"
+        />
+        <img
+          class="desktop-image"
+   
+          src="Images/Desktop-img4.png"
+          alt="Project Image"
+        />
+        <div class="daily">
+          <h2 class="Tonic2">Multi-Post Stories</h2>
+          <h2 class="Tonic4">Uber Navigation</h2>
+          <ul class="offer">
+            <li class="canopy">canopy</li>
+            <span class="point"></span>
+            <li class="backend">Back End Dev</li>
+            <span class="point"></span>
+            <li class="year">2015</li>
+          </ul>
+          <ul class="offer4">
+            <li class="canopy">Uber</li>
+            <span class="point"></span>
+            <li class="backend">Lead Developer</li>
+            <span class="point"></span>
+            <li class="year">2018</li>
+          </ul>
+          <p class="description">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <p class="description4">
+            A smart assistant to make driving more safe, efficient, and fun by
+            unlocking your most expensive computer: your car.
+          </p>
+
+          <ul class="skills">
+            <li class="htl"><a href="#"></a>html</li>
+            <li class="css"><a href="#"></a>css</li>
+            <li class="js"><a href="#"></a>javascript</li>
+          </ul>
+          <ul class="skills2">
+            <li class="htl"><a href="#"></a>html</li>
+            <li class="js"><a href="#"></a>Ruby On rails</li>
+            <li class="css"><a href="#"></a>css</li>
+            <li class="js"><a href="#"></a>javascript</li>
+          </ul>
+          <button class="seeproject" data-modal-target="#modal0">See Project</button>
+        </div>
+      </div>
+`;
+
 const modal0 = document.querySelector('.modal0');
 
 modal0.insertAdjacentHTML(
