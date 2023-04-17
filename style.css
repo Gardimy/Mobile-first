@@ -56,7 +56,7 @@ header {
     left: 0;
     background-color: #6070ff;
     mix-blend-mode: multiply;
-    z-index: 10;
+    z-index: 1;
     list-style: none;
     backdrop-filter: blur(7px);
     color: #fff;
@@ -77,9 +77,8 @@ header {
   }
 
   .Closebtn {
-    z-index: 100;
     align-items: flex-end;
-    left: 300px;
+    left: 290px;
   }
 
   .option .Closebtn {

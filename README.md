@@ -1,10 +1,10 @@
-# Animation and Transition
+# Mobile menu
 A Microverse exercise to use animation on a website
 <a name="readme-top"></a>
 
 <div align="center">
 
-  <h3><b>Animation and transition</b></h3>
+  <h3><b>Mobile menu</b></h3>
 
 </div>
 
@@ -31,9 +31,9 @@ A Microverse exercise to use animation on a website
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖Animation and Transition<a name="about-project"></a>
+# 📖mobile menu<a name="about-project"></a>
 
-> **Animation and Transition** is a starter exercise to create a portfolio website that can be used by multiple devices by listing the portfolio projects. And also using CSS animation makes the website more interactive. It is based on specific settings and requirements to ensure proper structure and best practices. By cloning this repo and running `npm install` we will have a basic portfolio with properly configured linters and the correct initial file structure.
+> **Mobile menu** is a starter exercise to create a portfolio website that can be used by multiple devices by listing the portfolio projects. And also using CSS animation makes the website more interactive. It is based on specific settings and requirements to ensure proper structure and best practices. By cloning this repo and running `npm install` we will have a basic portfolio with properly configured linters,  eslint and the correct initial file structure.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
