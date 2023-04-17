@@ -7,7 +7,7 @@ menu.addEventListener('click', () => {
   menu.style.display = 'block';
 });
 
-closemenu.addEventListener('click', () => {
+closemenu.addEventListener('click', ()=> {
   option.style.top = '-100%';
   closemenu.style.display = 'none';
 });
