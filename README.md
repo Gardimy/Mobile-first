@@ -30,15 +30,19 @@ A Microverse exercise to use animation on a website
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
-
 # 📖mobile menu<a name="about-project"></a>
 
-> **Mobile menu** is a starter exercise to create a portfolio website that can be used by multiple devices by listing the portfolio projects. And also using CSS animation makes the website more interactive. It is based on specific settings and requirements to ensure proper structure and best practices. By cloning this repo and running `npm install` we will have a basic portfolio with properly configured linters,  eslint and the correct initial file structure.
+> **Mobile menu** is a starter exercise to create a portfolio website that can be used by multiple
+devices by listing the portfolio projects. And also using CSS animation makes the website more interactive. 
+It is based on specific settings and requirements to ensure proper structure and best practices. 
+By cloning this repo and running `npm install` we will have a basic portfolio with properly configured linters,  
+eslint and the correct initial file structu
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> This project focuses only on `linters` and `.gitignore`. No JS or Server are included in this repo.
+> This project focuses only on `linters` and `.gitignore`. and JS or Server are included in this repo.
 <details>
   <summary>Client</summary>
   <ul>
@@ -62,12 +66,15 @@ A Microverse exercise to use animation on a website
 - **Linters**: [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/), [Webhint](https://webhint.io/), and [Stylelint](https://stylelint.io/.)
 - **A `.github/workflows/linters.yml`** file to run linters on GitHub Pull Request.
 - **A** `.gitignore` file including `node_modules/`.
+-**Eslint**npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
+          [ -f .eslintrc.json ] || wget https://raw.githubusercontent.com/microverseinc/linters-config/master/html-css-js/.eslintrc.json
+      - name: ESLint Report
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://hello-microverse.netlify.app/)
+- [Live Demo Link](https://gardimy.github.io/Mobile-first/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -75,7 +82,7 @@ A Microverse exercise to use animation on a website
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
->If you are a new developer and would like to have a basic project to start practicing your code or creating your first portfolio app-features, cloning this project will give you what you need!
+>If you are a new developer and would like to have a basic project to start practicing your code or creating your first portfolio app-features using good practice JavaScript ,HTML and CSS : Cloning this project will give you what you need!
 
 > To get a local copy up and running, follow these steps:
 ### Prerequisites
@@ -119,6 +126,17 @@ To run the linters before committing any changes to your code, execute the follo
 - Twitter: [@gardyelontiga45](https://twitter.com/gardyelontiga45)
 - LinkedIn: [Gardimy charles](https://www.linkedin.com/in/gardimy-charles)
 
+> 👤 Pablo Gonzalez
+
+- GitHub: [@PabloEGonz](https://github.com/PabloEGonz)
+- Twitter: [@PabloEzGon](https://twitter.com/PabloEzGon)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/pablo-ezequiel-gonz%C3%A1lez-ramos-b9b854265)
+
+> 👤 Marco Baquero
+
+- GitHub: [@mrcbq](https://github.com/mrcbq)
+- Twitter: [@twitter](https://twitter.com/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/marcobaquero)
 
 <!-- FUTURE FEATURES -->
 
