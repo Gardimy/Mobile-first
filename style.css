@@ -81,7 +81,6 @@ header {
     align-items: flex-end;
     z-index: 100;
     left: 300px;
-    position: absolute;
     display: block;
     margin-top: 15px;
     position: fixed;
