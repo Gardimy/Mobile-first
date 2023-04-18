@@ -8,6 +8,6 @@ menu.addEventListener('click', () => {
 });
 
 closemenu.addEventListener('click', () => {
-  option.style.top = '-100%';
+  option.style.top = '-400%';
   closemenu.style.display = 'none';
 });
