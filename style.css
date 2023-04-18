@@ -796,7 +796,6 @@ nav {
 
 .description-pop {
   height: 100%;
-  width: 311px;
   left: 0;
   top: 0;
   color: #344563;
@@ -1560,7 +1559,7 @@ nav {
   .desktoppop {
     display: block;
     height: 586px;
-    width: 1156px;
+    width: 100%;
     left: 0;
     top: 0;
     border-radius: 8px;
