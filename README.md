@@ -1,10 +1,10 @@
-# Mobile menu
+# details-popup
 A Microverse exercise to use animation on a website
 <a name="readme-top"></a>
 
 <div align="center">
 
-  <h3><b>Mobile menu</b></h3>
+  <h3><b>details popup</b></h3>
 
 </div>
 
@@ -30,9 +30,9 @@ A Microverse exercise to use animation on a website
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
-# 📖mobile menu<a name="about-project"></a>
+# 📖details popup<a name="about-project"></a>
 
-> **Mobile menu** is a starter exercise to create a portfolio website that can be used by multiple
+> **details poppup** is a starter exercise to create a portfolio website that can be used by multiple
 devices by listing the portfolio projects. And also using CSS animation makes the website more interactive. 
 It is based on specific settings and requirements to ensure proper structure and best practices. 
 By cloning this repo and running `npm install` we will have a basic portfolio with properly configured linters,  
