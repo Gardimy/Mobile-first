@@ -23,28 +23,30 @@ header {
   top: 12px;
   left: 4px;
   margin: 2px;
-  display: none;
+  display: block;
   cursor: pointer;
   color: #6070ff;
   font-size: 1.7rem;
 }
 
 .Closebtn {
-  height: 12px;
+  height: 1px;
   width: 12px;
-  left: 6px;
-  z-index: 100;
+  margin-left: 16px;
   top: 6px;
-  display: block;
+  display: none;
   border-radius: 0;
-  font-size: 2rem;
+  font-size: 1.5rem;
   cursor: pointer;
-  position: absolute;
+  position: fixed;
   color: white;
-  margin-top: 40px;
 }
 
 @media (max-width: 768px) {
+  .hamberger {
+    display: block;
+  }
+
   .option {
     flex-direction: column;
     align-items: flex-start;
@@ -72,14 +74,16 @@ header {
     color: white;
     font-size: 32px;
     font-weight: 600;
-    margin-left: 15px;
-    margin-top: 6px;
+    padding-left: 0;
   }
 
   .Closebtn {
-    z-index: 100;
     align-items: flex-end;
+    z-index: 100;
     left: 300px;
+    display: none;
+    margin-top: 15px;
+    position: fixed;
   }
 
   .option .Closebtn {
@@ -88,10 +92,6 @@ header {
     top: 20px;
     right: 0;
     width: 16px;
-  }
-
-  .hamberger {
-    display: block;
   }
 }
 
@@ -135,14 +135,13 @@ header {
 }
 
 .header-container {
-  height: 818px;
   width: 100%;
   background-image: url(Images/mobile-head-bg.png);
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   gap: 12px;
-  padding: 120px 24px 115px 24px;
+  padding: 36px 24px 115px 24px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -153,7 +152,7 @@ header {
   height: 150px;
   top: 114px;
   left: 24px;
-  padding-top: 32px;
+  padding-top: 40px;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -348,7 +347,6 @@ header {
 
 .description {
   width: 288px;
-  height: 76px;
   top: 92px;
   font-style: normal;
   font-weight: 400;
@@ -693,7 +691,9 @@ label {
 .description3,
 .description4,
 .Tonic4,
-.offer4 {
+.offer4,
+.description-pop2,
+.skillspop2 {
   display: none;
 }
 
@@ -709,10 +709,11 @@ label {
   border-radius: 14px;
   z-index: 10;
   background-color: #fff;
-  width: 90%;
-  height: 95%;
+  width: 86%;
+  height: 89%;
   padding: 12px;
-  overflow: scroll;
+  overflow-y: scroll;
+  display: block;
 }
 
 .modal0.active,
@@ -775,12 +776,11 @@ nav {
   list-style: none;
   margin: 0;
   padding-left: 14px;
-  height: 36px;
+  height: 45px;
 }
 
 .snapshootpop {
   height: 220px;
-  width: 311px;
   left: 16px;
   top: 112px;
   border-radius: 8px;
@@ -791,7 +791,7 @@ nav {
 }
 
 .description-pop {
-  height: 155px;
+  height: 100%;
   width: 311px;
   left: 0;
   top: 0;
@@ -808,10 +808,29 @@ nav {
   padding-left: 10px;
 }
 
+.dailypop {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.skillspop {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  gap: 10px;
+  padding-left: 0;
+}
+
 .see-live {
   display: flex;
   flex-direction: row;
   gap: 12px;
+  margin-top: 30px;
+  margin-left: 10px;
 }
 
 .seelive {
@@ -832,6 +851,17 @@ nav {
   cursor: pointer;
   margin: 12px 0;
   transition: all 0.4s ease-in-out;
+}
+
+.seelive:hover {
+  background-color: #6070fff5;
+  color: #fff;
+  transform: translateY(-5px);
+}
+
+.seelive:active {
+  background-color: #2231d2e7;
+  color: #fff;
 }
 
 #overlay {
@@ -1504,7 +1534,9 @@ nav {
   }
 
   .modal0,
-  .modal1 {
+  .modal1,
+  .modal2,
+  .modal3 {
     width: 85%;
   }
 
@@ -1524,13 +1556,60 @@ nav {
   .desktoppop {
     display: block;
     height: 586px;
-    width: 1108px;
+    width: 1156px;
     left: 0;
     top: 0;
     border-radius: 8px;
   }
 
-  .offer-pop {
+  .dailypop {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .description-pop {
+    display: none;
+  }
+
+  .description-pop2 {
+    height: 271px;
+    width: 778px;
+    left: 0;
+    top: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0;
+    text-align: left;
+    display: block;
+    color: #344563;
+    margin-top: 15px;
+  }
+
+  .skillspop {
+    display: none;
+  }
+
+  .dailypop .skillspop {
+    margin-top: 20px;
+  }
+
+  .skillspop2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    gap: 8px;
+    padding-left: 0;
+    height: 50px;
+  }
+
+  .dailypop .see-live {
+    margin-top: 8%;
+  }
+
+  .seelive .offer-pop {
     display: flex;
     align-items: flex-start;
     gap: 13px;
@@ -1539,36 +1618,6 @@ nav {
     margin: 0;
     padding-left: 14px;
     height: 36px;
-  }
-
-  .img-live {
-    padding-left: 10px;
-  }
-
-  .see-live {
-    display: flex;
-    flex-direction: row;
-    gap: 12px;
-  }
-
-  .seelive {
-    display: flex;
-    align-items: center;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-    text-decoration: none;
-    text-align: center;
-    letter-spacing: 0.03em;
-    padding: 12px;
-    color: #396df2;
-    background: transparent;
-    border-radius: 8px;
-    border: 1px solid #5564eb;
-    cursor: pointer;
-    margin: 12px 0;
-    transition: all 0.4s ease-in-out;
   }
 }
 
