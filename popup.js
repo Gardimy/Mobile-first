@@ -299,7 +299,7 @@ modal3.insertAdjacentHTML(
      </div>
      </div>
      `,
-); 
+);
 
 const seeproject = document.querySelectorAll('.seeproject');
 const closepop = document.querySelectorAll('.closepopup');
