@@ -1,7 +1,6 @@
 const form = document.querySelector('form');
 const mail = document.getElementById('mail');
 const emailRegExp = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
 const warning = mail.nextElementSibling;
 form.addEventListener('submit', (event) => {
   event.preventDefault();
