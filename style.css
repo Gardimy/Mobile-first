@@ -66,10 +66,6 @@ header {
     opacity: 100%;
   }
 
-  .stop-scrolling {
-    overflow: hidden;
-  }
-
   .option li a {
     display: block;
     padding: 15px;
