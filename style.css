@@ -1625,15 +1625,14 @@ nav {
 }
 
 .warning {
-  width: 50%;
-  position: relative;
-  top: -10px;
-  background-color: darkred;
-  color: #fff;
+  width: 80%;
+  top: -7px;
   font-size: 80%;
-  padding: 5px;
+  color: white;
+  background-color: darkred;
   border-radius: 0 0 5px 5px;
   box-sizing: border-box;
+  position: relative;
 }
 
 .warning.active {
