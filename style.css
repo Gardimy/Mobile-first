@@ -1620,19 +1620,17 @@ nav {
   }
 }
 
-.error {
-  width: 90%;
-  padding: 0;
-  top: -20px;
-  left: 30px;
+.warning {
+  width: 80%;
+  top: -7px;
   font-size: 80%;
   color: white;
-  background-color: #900;
+  background-color: darkred;
   border-radius: 0 0 5px 5px;
   box-sizing: border-box;
   position: relative;
 }
 
-.error.active {
+.warning.active {
   padding: 0.3em;
 }
