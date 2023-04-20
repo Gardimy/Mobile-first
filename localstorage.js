@@ -10,7 +10,6 @@ const formData = {
 
 const storedFormData = JSON.parse(localStorage.getItem('formData'));
 
-<<<<<<< HEAD
 if (storedFormData) {
   nameInput.value = storedFormData.name;
   emailInput.value = storedFormData.mail;
@@ -30,7 +29,4 @@ emailInput.addEventListener('input', () => {
 entermessageInput.addEventListener('input', () => {
   formData.entermessage = entermessageInput.value;
   localStorage.setItem('formData', JSON.stringify(formData));
-=======
-  localStorage.setItem('formData', JSON.stringify(Object.fromEntries(formData.entries())));
->>>>>>> b292f8ba8a6b02846c97085c54824702fa4c2f6f
 });
