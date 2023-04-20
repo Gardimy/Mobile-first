@@ -66,6 +66,10 @@ header {
     opacity: 100%;
   }
 
+  .stop-scrolling {
+    overflow: hidden;
+  }
+
   .option li a {
     display: block;
     padding: 15px;
@@ -653,7 +657,7 @@ label {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  color: #172b4d;
+  color: #b3bac5;
   padding: 2%;
   width: 100%;
 }
