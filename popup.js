@@ -113,14 +113,13 @@ containersworks.forEach((item2) => {
 `;
 });
 
-
 const popupContainer = document.querySelector('.popupContainer');
 
 function createPop() {
-  for (let i = 0;i<4;i+=1){
-    const div =document.createElement('div');
-    div.classList.add('modal'+i)
-    div.innerHTML =`<nav>
+  for (let i = 0; i < 4; i += 1) {
+    const div = document.createElement('div');
+    div.classList.add(`modal${i}`);
+    div.innerHTML = `<nav>
             <h2 class='Tonicpop'>${containersworks[i].Tonic}</h2>
             <button class='closepopup'>&times;</button>
         </nav>
@@ -159,11 +158,11 @@ function createPop() {
            </div>
          </div>
          </div>
-  `
-  popupContainer.appendChild(div);
+  `;
+    popupContainer.appendChild(div);
   }
 }
-createPop()
+createPop();
 
 const seeproject = document.querySelectorAll('.seeproject');
 const closepop = document.querySelectorAll('.closepopup');
