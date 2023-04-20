@@ -1,9 +1,32 @@
-const form = document.querySelector('form');
+const nameInput = document.getElementById('name');
+const emailInput = document.getElementById('mail');
+const entermessageInput = document.querySelector('.entermessage');
 
-form.addEventListener('submit', (event) => {
-  event.preventDefault();
+const formData = {
+  name: nameInput.value,
+  mail: emailInput.value,
+  entermessage: entermessageInput.value,
+};
 
-  const formData = new FormData(form);
+const storedFormData = JSON.parse(localStorage.getItem('formData'));
 
-  localStorage.setItem('formData', JSON.stringify(Object.fromEntries(formData.entries())));
+if (storedFormData) {
+  nameInput.value = storedFormData.name;
+  emailInput.value = storedFormData.mail;
+  entermessageInput.value = storedFormData.entermessage;
+}
+
+nameInput.addEventListener('input', () => {
+  formData.name = nameInput.value;
+  localStorage.setItem('formData', JSON.stringify(formData));
+});
+
+emailInput.addEventListener('input', () => {
+  formData.mail = emailInput.value;
+  localStorage.setItem('formData', JSON.stringify(formData));
+});
+
+entermessageInput.addEventListener('input', () => {
+  formData.entermessage = entermessageInput.value;
+  localStorage.setItem('formData', JSON.stringify(formData));
 });
